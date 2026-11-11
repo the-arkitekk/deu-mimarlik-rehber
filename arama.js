@@ -126,6 +126,7 @@
     let kismi = false;
     if (!sonuc.length && toplamKosul > 1) { sonuc = hepsi.filter((r) => r.tamam > 0); kismi = true; }
     sonuc.sort((a, b) => b.tamam - a.tamam || b.skor - a.skor);
+    if (kismi) sonuc = sonuc.slice(0, 12); // kısmi eşleşmede gürültüyü sınırla
     return { cozum, sonuc: sonuc.map((r) => ({ k: r.k, skor: r.skor, nedenler: r.nedenler, kismi })), kismi };
   }
 
