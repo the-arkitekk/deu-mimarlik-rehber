@@ -12,10 +12,12 @@
    "anahtar_kelimeler": [],
    "yontemler": [],
    "proje_deneyimi": [
-    "Yükseköğretim Kurumları Destekli Proje",
-    "Belediye",
+    "Yükseköğretim Kurumları Destekli Proje yürütücü",
+    "Belediye araştırmacı",
     "Diğer Resmi Kurumlarca Desteklenen Proje",
-    "TÜBİTAK 1000"
+    "Yükseköğretim Kurumları Destekli Proje",
+    "TÜBİTAK 1000",
+    "Belediye"
    ],
    "ortak_calismaya_acik": true,
    "guncelleme": "2026-11-11",
@@ -55,10 +57,10 @@
     "İzmir Kentinin Deprem Durumunda Kullanılabilecek Toplanma Alanlarının Belirlenmesine Yönelik Değerlendirme (2024)"
    ],
    "projeler": [
-    "İklim Değişikliğine Uyumun Mekansal Planlama İle Bütünleştirilmesi Bağlamında Tipoloji Önerisi: Küçük Menderes Alt Havzaları Örneği, Yükseköğretim Kurumları Destekli Proje, 2024 - 2025",
-    "Gecekondu Alanlarının İklim Değişikliğine Karşı Kırılganlık Düzeyinin Saptanması: Lale Mahallesi (İzmir) Örneği, Yükseköğretim Kurumları Destekli Proje, 2020 - 2023",
-    "Gecekondu Alanlarının İklim Değişikliğine Karşı Kırılganlık Düzeyinin Saptanması: Lale Mahallesi (İzmir) Örneği, Yükseköğretim Kurumları Destekli Proje, 2020 - 2021",
-    "Muğla Ovası Fikir Projesi, Belediye, 2016 - 2017"
+    "İklim Değişikliğine Uyumun Mekansal Planlama İle Bütünleştirilmesi Bağlamında Tipoloji Önerisi: Küçük Menderes Alt Havzaları Örneği, Yükseköğretim Kurumları Destekli Proje, yürütücü, 2024 - 2025",
+    "Gecekondu Alanlarının İklim Değişikliğine Karşı Kırılganlık Düzeyinin Saptanması: Lale Mahallesi (İzmir) Örneği, Yükseköğretim Kurumları Destekli Proje, yürütücü, 2020 - 2023",
+    "Gecekondu Alanlarının İklim Değişikliğine Karşı Kırılganlık Düzeyinin Saptanması: Lale Mahallesi (İzmir) Örneği, Yükseköğretim Kurumları Destekli Proje, yürütücü, 2020 - 2021",
+    "Muğla Ovası Fikir Projesi, Belediye, araştırmacı, 2016 - 2017"
    ],
    "iletisim": "https://avesis.deu.edu.tr/burcu.silaydin/iletisim"
   },
@@ -77,7 +79,7 @@
    ],
    "yontemler": [],
    "proje_deneyimi": [
-    "Diğer Özel Kurumlarca Desteklenen Proje"
+    "Diğer Özel Kurumlarca Desteklenen Proje araştırmacı"
    ],
    "ortak_calismaya_acik": true,
    "guncelleme": "2026-11-11",
@@ -112,7 +114,7 @@
     "YAKIN DÖNEM ÜNİVERSİTE YERLEŞKE GİRİŞ KAPILARINDAN FARKLILAŞAN BİR ÖRNEK: DOKUZ EYLÜL ÜNİVERSİTESİ TINAZTEPE YERLEŞKESİ DOĞU KAPISI (2020)"
    ],
    "projeler": [
-    "İzmir Tarih Projesi Anafartalar Caddesi 2 Etap ile 1 Halka Konut Dokusu nun Bir Bölümü ve Yakın Çevresi nin Operasyon Planına Yönelik Ön Projelendirme, Diğer Özel Kurumlarca Desteklenen Proje, 2015 - 2015"
+    "İzmir Tarih Projesi Anafartalar Caddesi 2 Etap ile 1 Halka Konut Dokusu nun Bir Bölümü ve Yakın Çevresi nin Operasyon Planına Yönelik Ön Projelendirme, Diğer Özel Kurumlarca Desteklenen Proje, araştırmacı, 2015 - 2015"
    ],
    "iletisim": "https://avesis.deu.edu.tr/deniz.dokgoz/iletisim"
   },
@@ -131,7 +133,16 @@
     "Biyomateryal"
    ],
    "yontemler": [],
-   "proje_deneyimi": [],
+   "proje_deneyimi": [
+    "TÜBİTAK 2209-B araştırmacı",
+    "Kalkınma Ajansı araştırmacı",
+    "TÜBİTAK 1501",
+    "TÜBİTAK 1002 araştırmacı",
+    "TÜBİTAK 1507 araştırmacı",
+    "TÜBİTAK araştırmacı",
+    "Yükseköğretim Kurumları Destekli Proje araştırmacı",
+    "TÜBİTAK 4005 araştırmacı"
+   ],
    "ortak_calismaya_acik": true,
    "guncelleme": "2026-11-11",
    "taslak": false,
@@ -183,7 +194,12 @@
     "Acil Barınma Birimi: Afet Sonrası Hızlı Kurulabilir Yaşam Ünitesi Tasarımı ve Prototip Üretimi (2023)",
     "Ulusal ve Uluslararası Ölçekte Kapalı Konut Sitesi Çalışmalarının Bibliyometrik Profili (2022)"
    ],
-   "projeler": [],
+   "projeler": [
+    "Physarum Polycephalum Cıvık Mantarları Kullanılarak Yol İzlerinin Bulunması İzmir Örneği, TÜBİTAK 1002, yürütücü, 2017 - 2019",
+    "3B Baskılı İskelet ile Güçlendirilmiş Miselyum Biyokompozit Tabanlı Modüler Mobilya Tasarımı, TÜBİTAK 2209-B, araştırmacı, 2026 - 2027",
+    "Kavacık Mahallesi Kırsal Tasarım Rehberi Hazırlanması, Kalkınma Ajansı, araştırmacı, 2026 - 2026",
+    "DOĞA DOSTU MİSELYUM BİYOKOMPOZİTLER İLE YAPI SEKTÖRÜNE YÖNELİK FONKSİYONEL ÜRÜN VE KAPLAMA UYGULAMALARININ GELİŞTİRİLMESİ, TÜBİTAK 1501, 2026 - 2027"
+   ],
    "iletisim": "https://avesis.deu.edu.tr/didem.akyol/iletisim"
   },
   {
@@ -199,7 +215,7 @@
    "proje_deneyimi": [
     "TÜBİTAK 3005",
     "TÜBİTAK 1001",
-    "Yükseköğretim Kurumları Destekli Proje"
+    "Yükseköğretim Kurumları Destekli Proje araştırmacı"
    ],
    "ortak_calismaya_acik": true,
    "guncelleme": "2026-11-11",
@@ -233,7 +249,7 @@
    "projeler": [
     "Toplumsal Cinsiyet Eşitliğine Duyarlı Ve Dezavantajlı Grupları Gözeten Şehir Planlama Yönergesi Önerisi, Türkiye Örneği, TÜBİTAK 3005, 2024 - 2026",
     "FARKLI KİMLİKLERİN TEMSİL EDİLDİĞİ KENTSEL DOKULARDA MEKANSAL KURGUNUN SOSYAL YAŞAM ÜZERİNDEKİ ETKİSİNİN İNCELENMESİ – İzmir-Bornova Örneği, TÜBİTAK 1001, 2018 - 2020",
-    "İKLİM DEĞİŞİKLİĞİ AZALTIM VE ADAPTASYON STRATEJİLERİNİN TÜRKİYE İLLERİNE GÖRE ÖNCELİKLENDİRİLMESİ, Yükseköğretim Kurumları Destekli Proje, 2015 - 2017"
+    "İKLİM DEĞİŞİKLİĞİ AZALTIM VE ADAPTASYON STRATEJİLERİNİN TÜRKİYE İLLERİNE GÖRE ÖNCELİKLENDİRİLMESİ, Yükseköğretim Kurumları Destekli Proje, araştırmacı, 2015 - 2017"
    ],
    "iletisim": "https://avesis.deu.edu.tr/duygu.kahraman/iletisim"
   },
@@ -263,7 +279,9 @@
     "deneysel çalışma",
     "dijital imalat"
    ],
-   "proje_deneyimi": [],
+   "proje_deneyimi": [
+    "Diğer Ülkelerdeki Özel Organizasyonlar Tarafından Desteklenmiş Proje araştırmacı"
+   ],
    "ortak_calismaya_acik": true,
    "guncelleme": "2026-11-11",
    "taslak": false,
@@ -289,7 +307,10 @@
     "Comparative Analysis Of Leonardo Ai, Midjourney, And Dall-E: Ai's Perspective On Future Cities (2023)",
     "Opti-Waffle: A Technological Furniture Design and Manufacturing Model (2023)"
    ],
-   "projeler": [],
+   "projeler": [
+    "Mimari Konsept Tasarımı İçin Sanal Gerçeklik Ortamında 3 Boyutlu Eskiz Modellemesi, 2018 - 2022",
+    "2009 Open Architecture Challange : Classroom design, Diğer Ülkelerdeki Özel Organizasyonlar Tarafından Desteklenmiş Proje, araştırmacı, 2009 - 2009"
+   ],
    "iletisim": "https://avesis.deu.edu.tr/erdem.yildirim/iletisim"
   },
   {
@@ -307,9 +328,9 @@
    ],
    "yontemler": [],
    "proje_deneyimi": [
-    "TÜBİTAK 1001",
-    "Diğer Resmi Kurumlarca Desteklenen Proje",
-    "Diğer Özel Kurumlarca Desteklenen Proje"
+    "TÜBİTAK 1001 araştırmacı",
+    "Diğer Resmi Kurumlarca Desteklenen Proje yürütücü",
+    "Diğer Özel Kurumlarca Desteklenen Proje yürütücü"
    ],
    "ortak_calismaya_acik": true,
    "guncelleme": "2026-11-11",
@@ -341,10 +362,10 @@
     "Agora Benim Parkım: Çocuklarla Bir Tasarım Deneyimi (2020)"
    ],
    "projeler": [
-    "İzmir’de Kültür Varlığı Niteliği Taşıyan Cumhuriyet Dönemi Mimari Örneklerin Özgün Karakterlerinin Saptanması ve Korumada Kullanılacak Bir Değer Sistemi Oluşturulması, TÜBİTAK 1001, 2025 - 2028",
-    "Dokuz Eylül Üniversitesi Tınaztepe Kampüsü Doğu Kapısı Tasarımı ve Proje Müellifliği İnşa Edildi, Diğer Resmi Kurumlarca Desteklenen Proje, 2015 - 2015",
-    "Dokuz Eylül Üniversitesi Uygulama Hastanesi Giriş ve Çevre Düzenlemesi Mimari Tasarımı Tasarımcı, Diğer Resmi Kurumlarca Desteklenen Proje, 2014 - 2015",
-    "İzmir Mimarlık Merkezi Konsept Proje ve İç Mekan Proje Tasarımı Uygulandı Tasarımcı, Diğer Resmi Kurumlarca Desteklenen Proje, 2012 - 2013"
+    "Dokuz Eylül Üniversitesi Tınaztepe Kampüsü Doğu Kapısı Tasarımı ve Proje Müellifliği İnşa Edildi, Diğer Resmi Kurumlarca Desteklenen Proje, yürütücü, 2015 - 2015",
+    "Dokuz Eylül Üniversitesi Uygulama Hastanesi Giriş ve Çevre Düzenlemesi Mimari Tasarımı Tasarımcı, Diğer Resmi Kurumlarca Desteklenen Proje, yürütücü, 2014 - 2015",
+    "İzmir Mimarlık Merkezi Konsept Proje ve İç Mekan Proje Tasarımı Uygulandı Tasarımcı, Diğer Resmi Kurumlarca Desteklenen Proje, yürütücü, 2012 - 2013",
+    "DEÜ Güzel Sanatlar Fakültesi Atölye İşlik Amfi ve Açık Alan Düzenlenmesi Tasarımı Tasarımcı, Diğer Resmi Kurumlarca Desteklenen Proje, yürütücü, 2012 - 2012"
    ],
    "iletisim": "https://avesis.deu.edu.tr/f.hacialibeyoglu/iletisim"
   },
@@ -364,7 +385,9 @@
     "Psikoloji"
    ],
    "yontemler": [],
-   "proje_deneyimi": [],
+   "proje_deneyimi": [
+    "Yükseköğretim Kurumları Destekli Proje yürütücü"
+   ],
    "ortak_calismaya_acik": true,
    "guncelleme": "2026-11-11",
    "taslak": false,
@@ -402,7 +425,9 @@
     "Architectural and Operational Drivers of Bedside Light Exposure Across Neonatal, Paediatric, and Adult Intensive Care Units: A Multicentre Real-World Study",
     "Playing against the clock: The hidden costs of circadian disruption in the football ecosystem of performance, recovery and spectator engagement (2026)"
    ],
-   "projeler": [],
+   "projeler": [
+    "Türkiye'nin Farklı İklim Bölgelerindeki Eğitim Yapılarında Bina Tasarımının İç Mekan Isısal Konforuna Etkisi, Yükseköğretim Kurumları Destekli Proje, yürütücü, 2025 - Devam Ediyor"
+   ],
    "iletisim": "https://avesis.deu.edu.tr/gizem.izmirtunahan/iletisim"
   },
   {
@@ -419,10 +444,11 @@
    ],
    "yontemler": [],
    "proje_deneyimi": [
-    "TÜBİTAK 1001",
+    "TÜBİTAK 1001 araştırmacı",
+    "TÜBİTAK 1001 yürütücü",
     "TÜBİTAK 2209-A araştırmacı",
-    "Belediye",
-    "Yükseköğretim Kurumları Destekli Proje"
+    "Belediye yürütücü",
+    "Yükseköğretim Kurumları Destekli Proje araştırmacı"
    ],
    "ortak_calismaya_acik": true,
    "guncelleme": "2026-11-11",
@@ -460,10 +486,10 @@
     "The Effect of Urban Space Limitations on Children's Physical Activity Levels in the Combating Covid-19 Pandemic (2021)"
    ],
    "projeler": [
-    "Deprem Durumunda Kritik Kentsel Bölgelerin Yol Ağı Kırılganlığının ve Erişilebilirliğinin Belirlenmesine Yönelik Coğrafi Bilgi Sistemleri Tabanlı Bir Yöntem, TÜBİTAK 1001, 2025 - 2027",
-    "Türkiye’nin Kentleşme Sürecinde Çocuk Mekânlarına Yaklaşımın İncelenmesi ve İzmir Örneği Üzerinden Yerel Yönetimler için “Çocuk Dostu Kent Eylem Planı” Hazırlama Kılavuzu, TÜBİTAK 1001, 2024 - 2026",
-    "Çocuklar İçin “Güvenli Okul Yolu” Oluşturmada İmar Mevzuatının Yeterliliği: Coğrafi Bilgi Sistemleri Üzerinden Bir Sorgulama, TÜBİTAK 2209-A, araştırmacı, 2024 - 2025",
-    "Çocuk Dostu Karşıyaka / oynanabilir Karşıyaka için Bir Eylem Planı Hazırlanmasında Çocuklar ve Gençler için Mekanlar Oluşturulmasına ilişkin Danışmanlık Hizmeti - 2, Belediye, 2022 - 2022"
+    "Türkiye’nin Kentleşme Sürecinde Çocuk Mekânlarına Yaklaşımın İncelenmesi ve İzmir Örneği Üzerinden Yerel Yönetimler için “Çocuk Dostu Kent Eylem Planı” Hazırlama Kılavuzu, TÜBİTAK 1001, yürütücü, 2024 - 2026",
+    "Çocuk Dostu Karşıyaka / oynanabilir Karşıyaka için Bir Eylem Planı Hazırlanmasında Çocuklar ve Gençler için Mekanlar Oluşturulmasına ilişkin Danışmanlık Hizmeti - 2, Belediye, yürütücü, 2022 - 2022",
+    "Çocuk Dostu Karşıyaka / oynanabilir Karşıyaka için Bir Eylem Planı Hazırlanmasında Çocuklar ve Gençler için Mekanlar Oluşturulmasına ilişkin Danışmanlık Hizmeti, Belediye, yürütücü, 2021 - 2022",
+    "Covid-19 Salgınıyla Mücadele Sürecinde Konutlarından Çıkamayan Çocukların ve Ebeveynlerinin Kentsel Mekana İlişkin Sağlık Güvenliği Algısı ve Normalleşme Sürecinde Çocukların Fiziksel Aktivite Düzeylerine Olası Etkisi, TÜBİTAK 1001, yürütücü, 2020 - 2021"
    ],
    "iletisim": "https://avesis.deu.edu.tr/gozde.eksioglu/iletisim"
   },
@@ -535,7 +561,7 @@
    ],
    "yontemler": [],
    "proje_deneyimi": [
-    "TÜBİTAK 3005",
+    "TÜBİTAK 3005 araştırmacı",
     "TÜBİTAK 2209-A araştırmacı",
     "TÜBİTAK 1001 araştırmacı",
     "Yükseköğretim Kurumları Destekli Proje",
@@ -588,7 +614,7 @@
     "Equitable accessibility of public open spaces: a comparison of measurement methods in metropolitan area of Izmir, Türkiye (2024)"
    ],
    "projeler": [
-    "Toplumsal Cinsiyet Eşitliğine Duyarlı Ve Dezavantajlı Grupları Gözeten Şehir Planlama Yönergesi Önerisi, Türkiye Örneği, TÜBİTAK 3005, 2024 - 2026",
+    "Toplumsal Cinsiyet Eşitliğine Duyarlı Ve Dezavantajlı Grupları Gözeten Şehir Planlama Yönergesi Önerisi, Türkiye Örneği, TÜBİTAK 3005, araştırmacı, 2024 - 2026",
     "Kentsel Yeşil Alan Kullanıcı Gruplarının Yaşa Bağlı Değişen Tercihleri ve Katılımcı Tasarım Önerileri, TÜBİTAK 2209-A, araştırmacı, 2024 - 2024",
     "Çocukların Gelişimi ve Bakımına Yönelik Yaşam Çevrelerinin İyileştirilmesi: İzmir’de Çocukların Açık Alan Erişilebilirliği ve Kullanımları, TÜBİTAK 1001, araştırmacı, 2020 - 2024",
     "Mevcut Mahalle Parklarının ‘İhtiyaca Dayalı Hakçalık’ Açısından Bir Değerlendirmesi: İzmir’deki mahalle parklarını kimler neden kullanıyor ve kullan(a)mıyor?, TÜBİTAK 1001, araştırmacı, 2016 - 2019"
@@ -617,7 +643,7 @@
    "yontemler": [],
    "proje_deneyimi": [
     "TÜBİTAK 1001 araştırmacı",
-    "TÜBİTAK 2219",
+    "TÜBİTAK 2219 yürütücü",
     "Yükseköğretim Kurumları Destekli Proje",
     "Kalkınma Ajansı",
     "UFUK 2020"
@@ -659,8 +685,8 @@
     "Proposal for a deployable architectural umbrella using scissor linkages and foldable plates"
    ],
    "projeler": [
+    "Kablo-destekli Biyoilhamlı Esnek Mekanizmalar Kullanılarak Üretilen Adaptif Cephe Sistemi Önerisi, TÜBİTAK 2219, yürütücü, 2024 - 2024",
     "126M503 - Afet Sonrası Geçici Barınma Sorununa Yönelik Modüler Katlanır Barınma Ünitesinin Geliştirilmesi, TÜBİTAK 1001, araştırmacı, 2026 - 2028",
-    "Kablo-destekli Biyoilhamlı Esnek Mekanizmalar Kullanılarak Üretilen Adaptif Cephe Sistemi Önerisi, TÜBİTAK 2219, 2024 - 2024",
     "Development of Transformable Disaster Relief Shelters Using Scissor Linkages and Foldable Plates, Yükseköğretim Kurumları Destekli Proje, 2023 - 2024",
     "Development and Fabrication of Novel Adaptive Building Envelope Systems:Use of Over-constrained and Compliant Mechanisms, Yükseköğretim Kurumları Destekli Proje, 2022 - 2023"
    ],
