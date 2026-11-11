@@ -77,15 +77,15 @@ function cizEtiketler() {
   const sayac = new Map();
   veri.akademisyenler.forEach((k) => k.anahtar_kelimeler.forEach((e) => sayac.set(e, (sayac.get(e) || 0) + 1)));
   const sirali = [...sayac].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "tr")).map((x) => x[0]);
-  const gorunen = durum.tumEtiketler ? sirali : sirali.slice(0, 14);
+  const gorunen = durum.tumEtiketler ? sirali : sirali.slice(0, 3);
   const kutu = $("#etiketler");
   kutu.replaceChildren(...gorunen.map((e) => {
     const b = el("button", { class: "etiket", type: "button", "aria-pressed": String(durum.secili.has(e)), text: e });
     b.onclick = () => { durum.secili.has(e) ? durum.secili.delete(e) : durum.secili.add(e); cizEtiketler(); cizKisiler(); };
     return b;
   }));
-  if (sirali.length > 14) {
-    const b = el("button", { class: "etiket diger", type: "button", text: durum.tumEtiketler ? "Daha az göster" : `Tümü (${sirali.length})` });
+  if (sirali.length > 3) {
+    const b = el("button", { class: "etiket diger", type: "button", text: durum.tumEtiketler ? "Daha az göster" : `Diğer (${sirali.length - 3})` });
     b.onclick = () => { durum.tumEtiketler = !durum.tumEtiketler; cizEtiketler(); };
     kutu.append(b);
   }
