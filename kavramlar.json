@@ -1,0 +1,1706 @@
+{
+ "_aciklama": "Kavram (şemsiye terim) katalogu. Her kavramın bir ana adı ve Türkçe/İngilizce varyantları vardır; 'ust' üst kavram(lar)dır (alt kavramı olan profil üst kavramla da bulunur). Varyantlar kelime köküyle eşleşir (ek farkları önemsiz). Eksik varyant eklemek için ilgili kavramın listesine bir satır ekleyin; 'python3 scripts/kavram_rapor.py' kapsanmayan terimleri listeler.",
+ "kavramlar": [
+  {
+   "id": "dijital-tasarim",
+   "ad": "Dijital tasarım ve teknolojiler",
+   "ust": [],
+   "varyantlar": [
+    "dijital tasarım",
+    "dijital teknoloji",
+    "dijital mimarlık",
+    "digital design",
+    "digital architecture",
+    "computational architecture",
+    "3b modelleme",
+    "3b belgeleme",
+    "nokta bulutu",
+    "point cloud",
+    "laser scanning",
+    "bilgisayar destekli tasarım",
+    "cad"
+   ]
+  },
+  {
+   "id": "afet-dayaniklilik",
+   "ad": "Afet ve dayanıklılık",
+   "ust": [],
+   "varyantlar": [
+    "afet",
+    "disaster",
+    "afet riski",
+    "afet yönetimi",
+    "acil durum",
+    "emergency",
+    "dirençlilik",
+    "resilience",
+    "dayanıklılık",
+    "kırılganlık",
+    "vulnerability",
+    "risk azaltma",
+    "hazard",
+    "kentsel risk",
+    "kentsel güvenlik",
+    "risk analizi",
+    "risk assessment"
+   ]
+  },
+  {
+   "id": "iklim",
+   "ad": "İklim ve çevre",
+   "ust": [],
+   "varyantlar": [
+    "iklim değişikliği",
+    "climate change",
+    "iklim uyumu",
+    "iklime uyum",
+    "iklim uyum",
+    "climate adaptation",
+    "iklim krizi",
+    "iklim eylem planı",
+    "iklim değişimi",
+    "iklim"
+   ]
+  },
+  {
+   "id": "enerji-surdurulebilirlik",
+   "ad": "Enerji ve sürdürülebilirlik",
+   "ust": [],
+   "varyantlar": [
+    "enerji",
+    "energy",
+    "sürdürülebilirlik",
+    "sürdürülebilir",
+    "sustainability",
+    "sustainable",
+    "yeşil bina",
+    "green building"
+   ]
+  },
+  {
+   "id": "yapi-teknolojisi",
+   "ad": "Yapı teknolojisi ve malzeme",
+   "ust": [],
+   "varyantlar": [
+    "yapı teknolojisi",
+    "yapı bilgisi",
+    "building technology",
+    "yapı fiziği",
+    "building physics",
+    "yapı elemanları",
+    "yapım sistemleri",
+    "yapı tekniği",
+    "bina bilgisi",
+    "fiziksel çevre kontrolü",
+    "mevcut yapı stoku",
+    "yapı elemanı",
+    "taşıyıcı sistemler"
+   ]
+  },
+  {
+   "id": "miras-koruma",
+   "ad": "Kültürel miras ve koruma",
+   "ust": [],
+   "varyantlar": [
+    "kültürel miras",
+    "cultural heritage",
+    "koruma",
+    "conservation",
+    "preservation",
+    "miras",
+    "heritage",
+    "tarihi çevre",
+    "tarihi doku",
+    "tarihsel çevre",
+    "tarihi yapı",
+    "historic building",
+    "kültür varlığı",
+    "kültür varlıkları",
+    "envanter",
+    "tarihi yapılar"
+   ]
+  },
+  {
+   "id": "kentsel-planlama",
+   "ad": "Kentsel planlama ve dönüşüm",
+   "ust": [],
+   "varyantlar": [
+    "kentsel planlama",
+    "kent planlama",
+    "şehir planlama",
+    "urban planning",
+    "planlama",
+    "mekânsal planlama",
+    "spatial planning",
+    "imar planı",
+    "kentsel politika",
+    "urban policy",
+    "arazi kullanımı",
+    "land use",
+    "habitat",
+    "karma arazi kullanımı",
+    "mixed use"
+   ]
+  },
+  {
+   "id": "egitim",
+   "ad": "Eğitim ve pedagoji",
+   "ust": [],
+   "varyantlar": [
+    "eğitim",
+    "education",
+    "pedagoji",
+    "pedagogy",
+    "öğrenme",
+    "learning",
+    "öğretim",
+    "teaching"
+   ]
+  },
+  {
+   "id": "sanal-gerceklik",
+   "ad": "Sanal gerçeklik",
+   "ust": [
+    "dijital-tasarim"
+   ],
+   "varyantlar": [
+    "sanal gerçeklik",
+    "vr",
+    "virtual reality",
+    "sürükleyici",
+    "sarmal",
+    "immersive",
+    "oculus",
+    "sanal ortam",
+    "virtual environment",
+    "sanal mekan",
+    "sanal gerçeklik simülatörü",
+    "head mounted display"
+   ]
+  },
+  {
+   "id": "artirilmis-gerceklik",
+   "ad": "Artırılmış / karma gerçeklik (XR)",
+   "ust": [
+    "dijital-tasarim"
+   ],
+   "varyantlar": [
+    "artırılmış gerçeklik",
+    "arttırılmış gerçeklik",
+    "augmented reality",
+    "karma gerçeklik",
+    "mixed reality",
+    "xr",
+    "genişletilmiş gerçeklik",
+    "extended reality",
+    "ar uygulaması"
+   ]
+  },
+  {
+   "id": "yapay-zeka",
+   "ad": "Yapay zekâ ve makine öğrenmesi",
+   "ust": [
+    "dijital-tasarim"
+   ],
+   "varyantlar": [
+    "yapay zeka",
+    "artificial intelligence",
+    "makine öğrenmesi",
+    "machine learning",
+    "derin öğrenme",
+    "deep learning",
+    "metinden görüntü",
+    "text to image",
+    "üretken yapay zeka",
+    "generative ai",
+    "midjourney",
+    "sinirsel ağlar",
+    "neural network",
+    "yapay sinir ağı"
+   ]
+  },
+  {
+   "id": "parametrik-tasarim",
+   "ad": "Parametrik ve algoritmik tasarım",
+   "ust": [
+    "dijital-tasarim"
+   ],
+   "varyantlar": [
+    "parametrik tasarım",
+    "parametrik",
+    "algoritmik tasarım",
+    "algoritma",
+    "algorithmic design",
+    "algorithm",
+    "hesaplamalı tasarım",
+    "computational design",
+    "üretken tasarım",
+    "generative design",
+    "evrimsel hesaplama",
+    "evolutionary computation",
+    "shape grammar",
+    "şekil grameri",
+    "görsel kodlama"
+   ]
+  },
+  {
+   "id": "dijital-uretim",
+   "ad": "Dijital üretim",
+   "ust": [
+    "dijital-tasarim"
+   ],
+   "varyantlar": [
+    "dijital üretim",
+    "dijital imalat",
+    "digital fabrication",
+    "eklemeli imalat",
+    "3b baskı",
+    "3d baskı",
+    "3d print",
+    "3b yazıcı",
+    "additive manufacturing",
+    "robotik üretim",
+    "bilgisayar destekli imalat",
+    "cnc",
+    "robotik",
+    "robotic"
+   ]
+  },
+  {
+   "id": "bim",
+   "ad": "Yapı bilgi modelleme (BIM)",
+   "ust": [
+    "dijital-tasarim"
+   ],
+   "varyantlar": [
+    "yapı bilgi modelleme",
+    "bina bilgi modelleme",
+    "bim",
+    "building information modeling",
+    "building information modelling",
+    "bilgi modelleme"
+   ]
+  },
+  {
+   "id": "dijital-ikiz",
+   "ad": "Dijital ikiz",
+   "ust": [
+    "dijital-tasarim"
+   ],
+   "varyantlar": [
+    "dijital ikiz",
+    "digital twin"
+   ]
+  },
+  {
+   "id": "simulasyon-optimizasyon",
+   "ad": "Simülasyon ve optimizasyon",
+   "ust": [
+    "dijital-tasarim"
+   ],
+   "varyantlar": [
+    "optimizasyon",
+    "optimization",
+    "optimisation",
+    "simülasyon",
+    "benzetim",
+    "simulation",
+    "topoloji optimizasyonu",
+    "topology optimization",
+    "çok amaçlı optimizasyon",
+    "multi objective"
+   ]
+  },
+  {
+   "id": "cbs-mekansal-analiz",
+   "ad": "CBS ve mekânsal analiz",
+   "ust": [
+    "dijital-tasarim"
+   ],
+   "varyantlar": [
+    "coğrafi bilgi sistemleri",
+    "cbs",
+    "gis",
+    "mekânsal analiz",
+    "spatial analysis",
+    "uzaktan algılama",
+    "remote sensing",
+    "mekânsal istatistik",
+    "spatial statistics",
+    "mekânsal modelleme",
+    "coğrafi analiz"
+   ]
+  },
+  {
+   "id": "dijital-egitim",
+   "ad": "Dijital araçlarla tasarım eğitimi",
+   "ust": [
+    "dijital-tasarim",
+    "egitim"
+   ],
+   "varyantlar": [
+    "dijital tasarım eğitimi",
+    "çevrimiçi öğrenme",
+    "online learning",
+    "uzaktan eğitim",
+    "distance education",
+    "dijital oyun",
+    "digital game",
+    "bilgisayar oyunu",
+    "cloud based",
+    "bulut tabanlı eğitim"
+   ]
+  },
+  {
+   "id": "deprem",
+   "ad": "Deprem",
+   "ust": [
+    "afet-dayaniklilik"
+   ],
+   "varyantlar": [
+    "deprem",
+    "earthquake",
+    "seismic",
+    "sismik",
+    "depremsellik",
+    "depremler",
+    "kahramanmaraş depremi",
+    "sisam depremi"
+   ]
+  },
+  {
+   "id": "sel-taskin",
+   "ad": "Sel ve taşkın",
+   "ust": [
+    "afet-dayaniklilik"
+   ],
+   "varyantlar": [
+    "sel",
+    "flood",
+    "taşkın",
+    "aşırı yağış",
+    "sel riski",
+    "sel kırılganlığı",
+    "flooding"
+   ]
+  },
+  {
+   "id": "toplanma-tahliye",
+   "ad": "Toplanma alanları ve tahliye",
+   "ust": [
+    "afet-dayaniklilik"
+   ],
+   "varyantlar": [
+    "toplanma alanı",
+    "toplanma alanları",
+    "acil toplanma",
+    "tahliye",
+    "evacuation",
+    "assembly area",
+    "afet sonrası toplanma"
+   ]
+  },
+  {
+   "id": "gecici-barinma",
+   "ad": "Acil ve geçici barınma",
+   "ust": [
+    "afet-dayaniklilik"
+   ],
+   "varyantlar": [
+    "acil barınma",
+    "geçici barınma",
+    "afet konutu",
+    "afet sonrası konut",
+    "geçici yerleşme",
+    "emergency shelter",
+    "temporary settlement",
+    "acil durum yerleşimi",
+    "hızlı kurulabilir"
+   ]
+  },
+  {
+   "id": "yapi-guvenligi",
+   "ad": "Yapı güvenliği ve deprem mühendisliği",
+   "ust": [
+    "afet-dayaniklilik",
+    "yapi-teknolojisi"
+   ],
+   "varyantlar": [
+    "yapı güvenliği",
+    "yapısal güvenlik",
+    "deprem güvenliği",
+    "deprem mühendisliği",
+    "earthquake engineering",
+    "yığma yapı",
+    "masonry",
+    "betonarme",
+    "reinforced concrete",
+    "taşıyıcı sistem",
+    "yapı mühendisliği",
+    "structural engineering",
+    "yapısal davranış",
+    "structural behaviour",
+    "sismik değerlendirme",
+    "seismic evaluation",
+    "yapısal analiz",
+    "dolgu duvar",
+    "infill wall",
+    "yapısal esneklik",
+    "structural flexibility",
+    "köprü",
+    "bridge",
+    "düzensiz yapı",
+    "yangın",
+    "fire safety",
+    "düzensizlik"
+   ]
+  },
+  {
+   "id": "deniz-seviyesi",
+   "ad": "Deniz seviyesi yükselmesi ve kıyı kentleri",
+   "ust": [
+    "iklim"
+   ],
+   "varyantlar": [
+    "deniz seviyesi",
+    "sea level",
+    "kıyı kenti",
+    "kıyı kentleri",
+    "coastal city",
+    "kıyı taşkını",
+    "kıyı yerleşmeleri",
+    "kıyı alanları",
+    "coastal"
+   ]
+  },
+  {
+   "id": "kentsel-isi",
+   "ad": "Kentsel ısı adası ve kent iklimi",
+   "ust": [
+    "iklim"
+   ],
+   "varyantlar": [
+    "kentsel ısı adası",
+    "urban heat island",
+    "kent iklimi",
+    "urban climate",
+    "soğutma kapasitesi",
+    "ısı kırılganlığı",
+    "kentsel soğuma"
+   ]
+  },
+  {
+   "id": "dogal-cozumler",
+   "ad": "Doğa temelli çözümler ve ekoloji",
+   "ust": [
+    "iklim"
+   ],
+   "varyantlar": [
+    "doğa temelli çözümler",
+    "nature based solutions",
+    "mavi yeşil altyapı",
+    "yeşil altyapı",
+    "green infrastructure",
+    "blue green",
+    "ekolojik",
+    "ekoloji",
+    "ecology",
+    "ecological",
+    "biyoçeşitlilik",
+    "biodiversity"
+   ]
+  },
+  {
+   "id": "enerji-verimliligi",
+   "ad": "Enerji verimliliği",
+   "ust": [
+    "enerji-surdurulebilirlik"
+   ],
+   "varyantlar": [
+    "enerji verimliliği",
+    "enerji etkinliği",
+    "enerji etkin",
+    "enerji performansı",
+    "energy efficiency",
+    "energy performance",
+    "energy efficient",
+    "nzeb",
+    "sıfır enerji",
+    "sıfıra yakın enerji",
+    "net zero",
+    "pasif ev",
+    "passive house",
+    "enerphit",
+    "retrofit",
+    "enerji yenileme",
+    "enerji tadilat",
+    "ısı yalıtımı",
+    "yalıtım",
+    "insulation",
+    "enerji tasarrufu",
+    "enerji ihtiyacı",
+    "enerji tüketimi"
+   ]
+  },
+  {
+   "id": "yenilenebilir-enerji",
+   "ad": "Yenilenebilir enerji",
+   "ust": [
+    "enerji-surdurulebilirlik"
+   ],
+   "varyantlar": [
+    "yenilenebilir enerji",
+    "renewable energy",
+    "fotovoltaik",
+    "photovoltaic",
+    "pv panel",
+    "güneş enerjisi",
+    "solar energy",
+    "güneş bacası",
+    "rüzgar enerjisi",
+    "rüzgâr enerjisi",
+    "wind energy",
+    "rüzgar türbini",
+    "rüzgâr türbini",
+    "wind turbine",
+    "bipv",
+    "enerji üreten"
+   ]
+  },
+  {
+   "id": "dongusel-ekonomi",
+   "ad": "Döngüsel ekonomi ve yeniden kullanım",
+   "ust": [
+    "enerji-surdurulebilirlik"
+   ],
+   "varyantlar": [
+    "döngüsel ekonomi",
+    "circular economy",
+    "döngüsellik",
+    "circularity",
+    "geri dönüşüm",
+    "recycling",
+    "yeniden kullanım",
+    "reuse",
+    "adaptive reuse",
+    "uyarlanabilir yeniden kullanım",
+    "atık"
+   ]
+  },
+  {
+   "id": "isil-konfor",
+   "ad": "Isıl ve görsel konfor",
+   "ust": [
+    "enerji-surdurulebilirlik"
+   ],
+   "varyantlar": [
+    "ısıl konfor",
+    "thermal comfort",
+    "görsel konfor",
+    "visual comfort",
+    "iç mekan konforu",
+    "indoor comfort",
+    "gün ışığı",
+    "daylight",
+    "aydınlatma",
+    "lighting",
+    "havalandırma",
+    "ventilation",
+    "iç hava kalitesi",
+    "indoor air"
+   ]
+  },
+  {
+   "id": "cephe",
+   "ad": "Cephe sistemleri",
+   "ust": [
+    "yapi-teknolojisi"
+   ],
+   "varyantlar": [
+    "cephe",
+    "facade",
+    "giydirme cephe",
+    "kinetik cephe",
+    "hareketli cephe",
+    "uyarlanabilir cephe",
+    "adaptive facade",
+    "kinetic facade",
+    "akıllı cephe",
+    "fotobiyoreaktör",
+    "güneş kontrolü",
+    "gölgeleme",
+    "shading",
+    "yapı kabuğu",
+    "building envelope",
+    "çatı bahçesi",
+    "green roof",
+    "yeşil çatı"
+   ]
+  },
+  {
+   "id": "malzeme",
+   "ad": "Yapı malzemeleri",
+   "ust": [
+    "yapi-teknolojisi"
+   ],
+   "varyantlar": [
+    "yapı malzemesi",
+    "malzeme",
+    "building material",
+    "material",
+    "nanomalzeme",
+    "nanomaterial",
+    "kompozit",
+    "composite",
+    "faz değiştiren",
+    "phase change",
+    "aerojel",
+    "aerogel",
+    "kerpiç",
+    "adobe",
+    "ahşap",
+    "timber",
+    "wood",
+    "clt",
+    "çelik",
+    "steel",
+    "taş",
+    "doğal taş",
+    "stone",
+    "biyomalzeme",
+    "biomaterial",
+    "yenilikçi malzeme",
+    "cam malzeme",
+    "beton",
+    "concrete"
+   ]
+  },
+  {
+   "id": "akustik",
+   "ad": "Mimari akustik",
+   "ust": [
+    "yapi-teknolojisi"
+   ],
+   "varyantlar": [
+    "akustik",
+    "acoustic",
+    "acoustics",
+    "ses konforu",
+    "gürültü",
+    "noise",
+    "akustik miras",
+    "ses yalıtımı",
+    "tınlama",
+    "reverberation"
+   ]
+  },
+  {
+   "id": "kinetik-yapilar",
+   "ad": "Kinetik ve açılır-kapanır yapılar",
+   "ust": [
+    "yapi-teknolojisi"
+   ],
+   "varyantlar": [
+    "kinetik",
+    "kinetic",
+    "makaslı",
+    "scissor",
+    "açılır kapanır",
+    "deployable",
+    "origami",
+    "line folding",
+    "eğrisel katlama",
+    "membran",
+    "membrane",
+    "uzay kafes",
+    "space frame",
+    "gerilmiş",
+    "kerf",
+    "mekanizma",
+    "mechanism",
+    "uyarlanır",
+    "adaptive system",
+    "uyarlanabilir sistem",
+    "esnek yapı"
+   ]
+  },
+  {
+   "id": "biyotasarim",
+   "ad": "Biyotasarım ve biyomimikri",
+   "ust": [
+    "yapi-teknolojisi"
+   ],
+   "varyantlar": [
+    "biyotasarım",
+    "biodesign",
+    "biyomimikri",
+    "biomimicry",
+    "biomimetic",
+    "biyotaklit",
+    "biyokalsifikasyon",
+    "biocalcification",
+    "mantar",
+    "miselyum",
+    "mycelium",
+    "alg",
+    "algae",
+    "biyoreaktör",
+    "bioreactor",
+    "biyokompozit",
+    "slime mold",
+    "cıvık mantar",
+    "bakteri",
+    "bacteria"
+   ]
+  },
+  {
+   "id": "restorasyon",
+   "ad": "Restorasyon ve onarım",
+   "ust": [
+    "miras-koruma"
+   ],
+   "varyantlar": [
+    "restorasyon",
+    "restoration",
+    "restitüsyon",
+    "restitution",
+    "onarım",
+    "repair",
+    "rehabilitasyon",
+    "rehabilitation",
+    "müdahale tamamlama",
+    "bütünleme",
+    "yenileme projesi",
+    "conservation project",
+    "koruma projesi"
+   ]
+  },
+  {
+   "id": "kirsal-miras",
+   "ad": "Kırsal miras ve vernaküler mimari",
+   "ust": [
+    "miras-koruma"
+   ],
+   "varyantlar": [
+    "kırsal miras",
+    "rural heritage",
+    "kırsal mimari",
+    "rural architecture",
+    "kırsal yerleşim",
+    "rural settlement",
+    "vernaküler",
+    "vernacular",
+    "köy",
+    "village",
+    "geleneksel yapı",
+    "geleneksel konut",
+    "geleneksel ev",
+    "traditional house",
+    "halk mimarisi",
+    "kültürel peyzaj",
+    "cultural landscape",
+    "türk evi",
+    "köy tasarım rehberi"
+   ]
+  },
+  {
+   "id": "endustri-mirasi",
+   "ad": "Endüstri mirası",
+   "ust": [
+    "miras-koruma"
+   ],
+   "varyantlar": [
+    "endüstri mirası",
+    "industrial heritage",
+    "endüstriyel miras",
+    "sanayi mirası",
+    "tekel",
+    "reji",
+    "fabrika",
+    "factory",
+    "sanayi yapısı",
+    "industrial building"
+   ]
+  },
+  {
+   "id": "modern-miras",
+   "ad": "Modern mimarlık mirası",
+   "ust": [
+    "miras-koruma"
+   ],
+   "varyantlar": [
+    "modern miras",
+    "modern mimarlık mirası",
+    "modern heritage",
+    "cumhuriyet dönemi",
+    "republican period",
+    "modernizm",
+    "modernism",
+    "modernleşme",
+    "modernization",
+    "docomomo",
+    "20. yüzyıl mimarlığı",
+    "brütalizm",
+    "brutalism"
+   ]
+  },
+  {
+   "id": "arkeolojik-alanlar",
+   "ad": "Arkeolojik alanlar",
+   "ust": [
+    "miras-koruma"
+   ],
+   "varyantlar": [
+    "arkeolojik alan",
+    "arkeolojik",
+    "arkeoloji",
+    "archaeological",
+    "archaeology",
+    "arkeopark",
+    "kentsel arkeoloji",
+    "antik kent",
+    "ancient city",
+    "kalıntı",
+    "ruins"
+   ]
+  },
+  {
+   "id": "tarihi-kent",
+   "ad": "Tarihi kent dokusu",
+   "ust": [
+    "miras-koruma"
+   ],
+   "varyantlar": [
+    "tarihi kent",
+    "historic city",
+    "historic urban",
+    "tarihi kent merkezi",
+    "tarihi kentsel",
+    "kemeraltı",
+    "sağlıklaştırma",
+    "kentsel sit",
+    "tarihsel doku",
+    "tarihi doku",
+    "historic fabric",
+    "tarihi çevrede yeni yapı",
+    "koruma amaçlı imar",
+    "çarşı",
+    "bazaar",
+    "ottoman bazaar"
+   ]
+  },
+  {
+   "id": "somut-olmayan-miras",
+   "ad": "Somut olmayan miras ve kültürel kimlik",
+   "ust": [
+    "miras-koruma"
+   ],
+   "varyantlar": [
+    "somut olmayan",
+    "intangible",
+    "unesco",
+    "yer ruhu",
+    "genius loci",
+    "kültürel kimlik",
+    "cultural identity",
+    "kent belleği",
+    "urban memory",
+    "kentsel bellek",
+    "bellek",
+    "memory",
+    "kültürel bellek"
+   ]
+  },
+  {
+   "id": "kultur-turizmi",
+   "ad": "Kültür ve miras turizmi",
+   "ust": [
+    "miras-koruma"
+   ],
+   "varyantlar": [
+    "kültür turizmi",
+    "cultural tourism",
+    "miras turizmi",
+    "heritage tourism",
+    "kırsal turizm",
+    "rural tourism",
+    "sürdürülebilir turizm",
+    "sustainable tourism",
+    "turizm",
+    "tourism",
+    "cittaslow"
+   ]
+  },
+  {
+   "id": "kentsel-donusum",
+   "ad": "Kentsel dönüşüm ve yenileme",
+   "ust": [
+    "kentsel-planlama"
+   ],
+   "varyantlar": [
+    "kentsel dönüşüm",
+    "kentsel yenileme",
+    "urban transformation",
+    "urban renewal",
+    "urban regeneration",
+    "kentsel gelişim",
+    "riskli yapı",
+    "6306",
+    "gecekondu",
+    "squatter",
+    "informal settlement",
+    "kentsel rant",
+    "urban rent",
+    "dönüşüm projesi",
+    "kentsel dönüşüm alanı",
+    "soylulaşma",
+    "gentrification",
+    "maden alanı",
+    "atıl alan",
+    "brownfield",
+    "vacant",
+    "terk edilmiş",
+    "abandoned",
+    "kentsel boşluk"
+   ]
+  },
+  {
+   "id": "kentsel-tasarim",
+   "ad": "Kentsel tasarım ve kamusal mekân",
+   "ust": [
+    "kentsel-planlama"
+   ],
+   "varyantlar": [
+    "kentsel tasarım",
+    "urban design",
+    "kentsel mekan",
+    "kentsel kamusal mekan",
+    "kamusal mekan",
+    "kamusal alan",
+    "public space",
+    "kamusal",
+    "açık alan",
+    "open space",
+    "kentsel açık alan",
+    "meydan",
+    "square",
+    "sokak",
+    "street",
+    "kıyı tasarımı",
+    "waterfront",
+    "taktiksel kentçilik",
+    "tactical urbanism",
+    "kentsel mobilya",
+    "street furniture",
+    "kentsel taktik",
+    "tactical"
+   ]
+  },
+  {
+   "id": "kentsel-morfoloji",
+   "ad": "Kentsel morfoloji ve mekânsal yapı",
+   "ust": [
+    "kentsel-planlama"
+   ],
+   "varyantlar": [
+    "kentsel morfoloji",
+    "urban morphology",
+    "kentsel form",
+    "urban form",
+    "graf teorisi",
+    "graph theory",
+    "space syntax",
+    "mekân dizimi",
+    "kentsel doku",
+    "urban fabric",
+    "sokak dokusu",
+    "street pattern",
+    "kompakt kent",
+    "compact city",
+    "kentsel omurga",
+    "yoğunluk",
+    "density",
+    "saçaklanma",
+    "kentsel yayılma",
+    "urban sprawl",
+    "banliyöleşme",
+    "suburbia"
+   ]
+  },
+  {
+   "id": "konut",
+   "ad": "Konut ve konut politikası",
+   "ust": [
+    "kentsel-planlama"
+   ],
+   "varyantlar": [
+    "konut",
+    "housing",
+    "kapalı konut sitesi",
+    "kapalı konut siteleri",
+    "gated community",
+    "sosyal konut",
+    "social housing",
+    "konut politikası",
+    "housing policy",
+    "apartman",
+    "apartment",
+    "konut üretimi",
+    "toki",
+    "konut finansmanı"
+   ]
+  },
+  {
+   "id": "neoliberal-politika",
+   "ad": "Kentsel politika ve mevzuat",
+   "ust": [
+    "kentsel-planlama"
+   ],
+   "varyantlar": [
+    "neoliberal",
+    "neoliberalism",
+    "kentsel politika",
+    "gayrimenkul",
+    "real estate",
+    "planlama mevzuatı",
+    "yasal düzenleme",
+    "legal regulation",
+    "kıyı kanunu",
+    "imar",
+    "zoning",
+    "yönetişim",
+    "governance",
+    "yerel yönetim",
+    "local government",
+    "büyükşehir",
+    "metropolitan",
+    "kalkınma ajansı",
+    "kıyı mevzuatı",
+    "kümelenme",
+    "cluster",
+    "yabancı sermaye",
+    "kentsel markalaşma",
+    "city branding",
+    "kültür endüstrileri",
+    "creative industries"
+   ]
+  },
+  {
+   "id": "ulasim",
+   "ad": "Ulaşım ve hareketlilik",
+   "ust": [
+    "kentsel-planlama"
+   ],
+   "varyantlar": [
+    "ulaşım",
+    "transport",
+    "transportation",
+    "toplu taşıma",
+    "public transport",
+    "transit",
+    "yürünebilirlik",
+    "walkability",
+    "bisiklet",
+    "bicycle",
+    "akıllı ulaşım",
+    "otopark",
+    "parking",
+    "sürücüsüz",
+    "autonomous vehicle",
+    "15 dakikalık kent",
+    "15 minute city",
+    "hareketlilik",
+    "mobility",
+    "metro",
+    "trafik",
+    "traffic"
+   ]
+  },
+  {
+   "id": "kirsal-planlama",
+   "ad": "Kırsal planlama ve tarım alanları",
+   "ust": [
+    "kentsel-planlama"
+   ],
+   "varyantlar": [
+    "kırsal planlama",
+    "rural planning",
+    "kırsal alan",
+    "rural area",
+    "tarım arazisi",
+    "tarım alanı",
+    "agricultural land",
+    "kentsel tarım",
+    "urban agriculture",
+    "kır kent",
+    "urban rural",
+    "tarımsal",
+    "agriculture",
+    "kırsal kalkınma",
+    "rural development"
+   ]
+  },
+  {
+   "id": "yesil-alan",
+   "ad": "Yeşil alan, park ve peyzaj",
+   "ust": [
+    "kentsel-planlama"
+   ],
+   "varyantlar": [
+    "yeşil alan",
+    "green space",
+    "park",
+    "kentsel yeşil",
+    "urban green",
+    "peyzaj",
+    "landscape",
+    "kent bahçesi",
+    "urban garden",
+    "kentsel bahçecilik",
+    "bahçe",
+    "garden"
+   ]
+  },
+  {
+   "id": "akilli-kent",
+   "ad": "Akıllı kent",
+   "ust": [
+    "kentsel-planlama"
+   ],
+   "varyantlar": [
+    "akıllı kent",
+    "smart city",
+    "e-planlama",
+    "e planlama",
+    "akıllı şehir",
+    "akıllı kentleşme"
+   ]
+  },
+  {
+   "id": "yasam-kalitesi",
+   "ad": "Yaşam kalitesi ve mahalle",
+   "ust": [
+    "kentsel-planlama"
+   ],
+   "varyantlar": [
+    "yaşam kalitesi",
+    "quality of life",
+    "mahalle",
+    "neighbourhood",
+    "neighborhood",
+    "kentsel yaşam",
+    "urban life",
+    "yaşanabilir kent",
+    "liveable city",
+    "yaşanabilirlik",
+    "kentsel yoksulluk",
+    "urban poverty",
+    "yoksunluk",
+    "deprivation",
+    "kentsel yoksunluk"
+   ]
+  },
+  {
+   "id": "toplumsal-cinsiyet",
+   "ad": "Toplumsal cinsiyet ve kent",
+   "ust": [
+    "kentsel-planlama"
+   ],
+   "varyantlar": [
+    "toplumsal cinsiyet",
+    "gender",
+    "kadın dostu",
+    "women friendly",
+    "lgbt",
+    "lgbtt",
+    "kadın",
+    "woman",
+    "women",
+    "cinsiyet"
+   ]
+  },
+  {
+   "id": "erisilebilirlik",
+   "ad": "Erişilebilirlik ve evrensel tasarım",
+   "ust": [
+    "kentsel-planlama"
+   ],
+   "varyantlar": [
+    "erişilebilirlik",
+    "accessibility",
+    "accessible",
+    "evrensel tasarım",
+    "universal design",
+    "engelsiz",
+    "engelli",
+    "disabled",
+    "görme engelli",
+    "visually impaired",
+    "kapsayıcı tasarım",
+    "inclusive design",
+    "yaşlı odaklı",
+    "gerontechnology",
+    "geronteknoloji",
+    "otizm",
+    "autism"
+   ]
+  },
+  {
+   "id": "katilim",
+   "ad": "Katılımcı planlama ve tasarım",
+   "ust": [
+    "kentsel-planlama"
+   ],
+   "varyantlar": [
+    "katılımcı",
+    "participatory",
+    "katılım",
+    "participation",
+    "katılımlı",
+    "ortak tasarım",
+    "co design",
+    "co-design",
+    "co production",
+    "co-production",
+    "kolektif",
+    "collective",
+    "yer oluşturma",
+    "placemaking",
+    "paydaş",
+    "stakeholder",
+    "kendin yap",
+    "diy"
+   ]
+  },
+  {
+   "id": "cocuk-kent",
+   "ad": "Çocuk ve kent",
+   "ust": [
+    "kentsel-planlama"
+   ],
+   "varyantlar": [
+    "çocuk",
+    "child",
+    "children",
+    "çocuk dostu",
+    "child friendly",
+    "oyun alanı",
+    "playground",
+    "play",
+    "okul bahçesi",
+    "school garden",
+    "çocuk katılımı",
+    "çocuk mimarlık",
+    "okul sokağı"
+   ]
+  },
+  {
+   "id": "yuksek-yapi",
+   "ad": "Yüksek yapılar",
+   "ust": [
+    "kentsel-planlama"
+   ],
+   "varyantlar": [
+    "yüksek yapı",
+    "yüksek yapılar",
+    "gökdelen",
+    "tall building",
+    "skyscraper",
+    "high rise",
+    "high-rise",
+    "yüksek bina",
+    "kule"
+   ]
+  },
+  {
+   "id": "sosyal-altyapi",
+   "ad": "Sosyal ve teknik altyapı",
+   "ust": [
+    "kentsel-planlama"
+   ],
+   "varyantlar": [
+    "sosyal altyapı",
+    "social infrastructure",
+    "teknik altyapı",
+    "technical infrastructure",
+    "altyapı",
+    "infrastructure",
+    "kamu hizmeti"
+   ]
+  },
+  {
+   "id": "mimarlik-egitimi",
+   "ad": "Mimarlık ve tasarım eğitimi",
+   "ust": [
+    "egitim"
+   ],
+   "varyantlar": [
+    "mimarlık eğitimi",
+    "architectural education",
+    "architecture education",
+    "tasarım eğitimi",
+    "design education",
+    "tasarım stüdyosu",
+    "design studio",
+    "temel tasarım",
+    "basic design",
+    "stüdyo",
+    "studio",
+    "planlama eğitimi",
+    "planning education",
+    "şehircilik eğitimi",
+    "mimarlık pedagojisi",
+    "kolektif öğrenme",
+    "eleştirel düşünme",
+    "critical thinking"
+   ]
+  },
+  {
+   "id": "cocuk-egitimi",
+   "ad": "Çocuk ve çevre eğitimi",
+   "ust": [
+    "egitim"
+   ],
+   "varyantlar": [
+    "çocuk eğitimi",
+    "çevre eğitimi",
+    "environmental education",
+    "çocuk mimarlık atölyesi",
+    "yapılı çevre eğitimi",
+    "built environment education",
+    "proje tabanlı öğrenme",
+    "project based learning",
+    "montessori",
+    "okul tasarımı",
+    "school design"
+   ]
+  },
+  {
+   "id": "mimarlik-tarihi-kuram",
+   "ad": "Mimarlık tarihi ve kuramı",
+   "ust": [],
+   "varyantlar": [
+    "mimarlık tarihi",
+    "architectural history",
+    "architecture history",
+    "mimarlık kuramı",
+    "architectural theory",
+    "eleştirel mimarlık",
+    "critical architecture",
+    "mimarlık eleştirisi",
+    "architectural criticism",
+    "felsefe",
+    "philosophy",
+    "mimar monografi",
+    "monograph",
+    "osmanlı mimarisi",
+    "ottoman architecture",
+    "levanten",
+    "levantine",
+    "mimarlık kültürü",
+    "mimari bellek",
+    "avangard",
+    "avant garde",
+    "toplumsal yapı",
+    "sosyoloji",
+    "sociology",
+    "mimarlık ve toplum"
+   ]
+  },
+  {
+   "id": "mimari-yarisma",
+   "ad": "Mimari proje yarışmaları",
+   "ust": [],
+   "varyantlar": [
+    "mimari proje yarışması",
+    "architectural competition",
+    "design competition",
+    "yarışma",
+    "competition",
+    "fikir yarışması"
+   ]
+  },
+  {
+   "id": "arastirma-yontemleri",
+   "ad": "Araştırma yöntemleri",
+   "ust": [],
+   "varyantlar": [
+    "araştırma yöntemi",
+    "research method",
+    "research methods",
+    "gömülü kuram",
+    "grounded theory",
+    "araştırma temelli",
+    "research based",
+    "yaşayan laboratuvar",
+    "living lab",
+    "delphi",
+    "ahp",
+    "analitik hiyerarşi",
+    "çok ölçütlü karar",
+    "multi criteria",
+    "multi-criteria",
+    "bibliyometri",
+    "bibliometric",
+    "bilimsel haritalama",
+    "scientometric",
+    "anket",
+    "survey",
+    "odak grup",
+    "focus group",
+    "vaka çalışması",
+    "case study"
+   ]
+  },
+  {
+   "id": "cevre-davranis",
+   "ad": "Çevre-davranış ve mekân algısı",
+   "ust": [],
+   "varyantlar": [
+    "çevre davranış",
+    "environment behaviour",
+    "environmental psychology",
+    "çevre psikolojisi",
+    "mekân algısı",
+    "spatial perception",
+    "algı",
+    "perception",
+    "bilişsel harita",
+    "cognitive map",
+    "kullanım sonrası değerlendirme",
+    "post occupancy",
+    "kullanıcı memnuniyeti",
+    "user satisfaction",
+    "yer bağlılığı",
+    "place attachment",
+    "fiziksel aktivite",
+    "physical activity",
+    "sağlık algısı"
+   ]
+  },
+  {
+   "id": "saglik-yapilari",
+   "ad": "Sağlık yapıları",
+   "ust": [],
+   "varyantlar": [
+    "sağlık yapısı",
+    "sağlık yapıları",
+    "hastane",
+    "hospital",
+    "healthcare",
+    "sağlıklı yaşam",
+    "healthy living",
+    "huzurevi",
+    "nursing home",
+    "ameliyathane"
+   ]
+  },
+  {
+   "id": "turizm-ticari-mimari",
+   "ad": "Turizm, ticari ve ofis yapıları",
+   "ust": [],
+   "varyantlar": [
+    "turizm mimarisi",
+    "otel",
+    "hotel",
+    "motel",
+    "tatil köyü",
+    "holiday village",
+    "konaklama",
+    "alışveriş merkezi",
+    "avm",
+    "shopping mall",
+    "ofis",
+    "office",
+    "perakende",
+    "retail",
+    "mağaza",
+    "store",
+    "butik otel"
+   ]
+  },
+  {
+   "id": "sanat-kultur",
+   "ad": "Sanat, sinema ve temsil",
+   "ust": [],
+   "varyantlar": [
+    "kamusal sanat",
+    "public art",
+    "sanat",
+    "art",
+    "sinema",
+    "cinema",
+    "film",
+    "fotoğraf",
+    "photography",
+    "karikatür",
+    "cartoon",
+    "mimari temsil",
+    "representation",
+    "eskiz",
+    "sketch",
+    "çizim",
+    "drawing",
+    "görsel kültür"
+   ]
+  },
+  {
+   "id": "kampus",
+   "ad": "Kampüs ve üniversite yerleşkeleri",
+   "ust": [],
+   "varyantlar": [
+    "kampüs",
+    "campus",
+    "üniversite yerleşkesi",
+    "yerleşke",
+    "university campus",
+    "üniversite kenti"
+   ]
+  },
+  {
+   "id": "kent-tarihi",
+   "ad": "Kent ve planlama tarihi",
+   "ust": [],
+   "varyantlar": [
+    "kent tarihi",
+    "urban history",
+    "planlama tarihi",
+    "planning history",
+    "kentsel tarih",
+    "izmir tarihi",
+    "modernleşme ve kent",
+    "19. yüzyıl izmir"
+   ]
+  },
+  {
+   "id": "dini-yapilar",
+   "ad": "Dini yapılar",
+   "ust": [],
+   "varyantlar": [
+    "cami",
+    "mosque",
+    "sinagog",
+    "synagogue",
+    "kilise",
+    "church",
+    "hamam",
+    "turkish bath",
+    "dini yapı",
+    "religious building",
+    "mihrap",
+    "minare"
+   ]
+  },
+  {
+   "id": "yapi-yonetimi",
+   "ad": "Yapım ve proje yönetimi",
+   "ust": [],
+   "varyantlar": [
+    "yapım yönetimi",
+    "construction management",
+    "proje yönetimi",
+    "project management",
+    "maliyet analizi",
+    "cost analysis",
+    "fayda maliyet",
+    "cost benefit",
+    "yaşam döngüsü maliyeti",
+    "life cycle cost",
+    "inşaat yönetimi"
+   ]
+  },
+  {
+   "id": "mimari-tasarim",
+   "ad": "Mimari tasarım",
+   "ust": [],
+   "varyantlar": [
+    "mimari tasarım",
+    "mimarı tasarım",
+    "architectural design",
+    "bina tasarımı",
+    "building design",
+    "mimari estetik",
+    "architectural aesthetics",
+    "tasarım süreci",
+    "design process",
+    "bağlama duyarlı tasarım",
+    "tasarım kuramı",
+    "design theory"
+   ]
+  },
+  {
+   "id": "deneysel-tasarim-pratikleri",
+   "ad": "Spekülatif ve deneysel tasarım pratikleri",
+   "ust": [],
+   "varyantlar": [
+    "spekülatif",
+    "speculative",
+    "yaratıcı tamir",
+    "creative repair",
+    "bakım etiği",
+    "ethics of care",
+    "minör mekansallık",
+    "minor spatialities",
+    "kolektif üretim",
+    "ütopya",
+    "utopia",
+    "kent düşleri",
+    "atölye"
+   ]
+  },
+  {
+   "id": "kamu-yapilari",
+   "ad": "Kamu yapıları ve cezaevi mimarlığı",
+   "ust": [],
+   "varyantlar": [
+    "kamu yapıları",
+    "kamu yapısı",
+    "public building",
+    "belediye binası",
+    "cezaevi",
+    "prison",
+    "adli mimarlık",
+    "forensic architecture",
+    "adliye",
+    "courthouse",
+    "hizmet binası"
+   ]
+  },
+  {
+   "id": "goc",
+   "ad": "Göç ve kent",
+   "ust": [
+    "kentsel-planlama"
+   ],
+   "varyantlar": [
+    "göç",
+    "migration",
+    "göçmen",
+    "immigrant",
+    "emigrant",
+    "göçe maruz",
+    "mübadele",
+    "refugee",
+    "mülteci"
+   ]
+  },
+  {
+   "id": "diger-disiplinler",
+   "ad": "Diğer disiplinlerden katkı (hukuk, sosyoloji, jeofizik…)",
+   "ust": [],
+   "varyantlar": [
+    "hukuk",
+    "law",
+    "idare hukuku",
+    "administrative law",
+    "inşaat mühendisliği",
+    "civil engineering",
+    "jeofizik",
+    "geophysics",
+    "ekonomi",
+    "economics",
+    "sosyoloji"
+   ]
+  }
+ ]
+}

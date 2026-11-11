@@ -21,7 +21,7 @@ function liste(baslik, dizi) {
   return f;
 }
 
-function kisiKarti(k) {
+function kisiKarti(k, nedenler = []) {
   const unvanlar = /^(prof\.?|doç\.?|dr\.?|öğr\.?|üyesi|arş\.?|gör\.?|örnek|–)$/i;
   const adlar = k.ad.split(/\s+/).filter((x) => x && !unvanlar.test(x));
   const bas3 = (adlar[0]?.[0] || "?") + (adlar.length > 1 ? adlar[adlar.length - 1][0] : "");
@@ -43,30 +43,31 @@ function kisiKarti(k) {
         k.taslak ? el("span", { class: "rozet kapali", text: "taslak · onaysız" }) : null,
         el("span", { class: "rozet " + (k.ortak_calismaya_acik ? "acik" : "kapali"), text: k.ortak_calismaya_acik ? "ortak çalışmaya açık" : "şu an kapalı" })))),
     k.ozet && el("p", { class: "ozet", text: k.ozet }),
+    nedenler.length ? el("div", { class: "neden", text: "Eşleşme: " + nedenler.join(" · ") }) : null,
     el("div", { class: "kelimeler" }, ...k.anahtar_kelimeler.map((x) => el("span", { text: x }))),
     ayrinti, baglanti.childNodes.length ? baglanti : null);
 }
 
-let esAnlamlilar = [];
-// Profil metninde bir grup terimi geçiyorsa, grubun öteki terimlerini de arama metnine ekler (eş anlamlı / farklı yorum).
-function saklaKisi(k) {
-  const metin = kati([k.ad, k.bolum, k.ozet, ...k.anahtar_kelimeler, ...(k.otomatik_etiketler || []), ...(k.diger_alanlar || []),
-    ...k.yontemler, ...k.proje_deneyimi, ...k.yayinlar].join(" | "));
-  const ek = [];
-  for (const grup of esAnlamlilar) {
-    if (grup.some((t) => t.length > 3 && metin.includes(t))) ek.push(...grup);
-  }
-  return metin + " | " + ek.join(" ");
-}
+let kavramDizin = null;
 
 function cizKisiler() {
-  const q = kati(durum.arama).split(/\s+/).filter(Boolean);
-  const sonuc = veri.akademisyenler.filter((k) =>
+  const uygun = veri.akademisyenler.filter((k) =>
     (!durum.fakulte || k.fakulte === durum.fakulte) && (!durum.bolum || k.bolum === durum.bolum) && (!durum.acik || k.ortak_calismaya_acik) &&
-    [...durum.secili].every((e) => k.anahtar_kelimeler.includes(e)) && q.every((t) => k._ara.includes(t)));
-  $("#durum").textContent = `${sonuc.length} akademisyen`;
+    [...durum.secili].every((e) => k.anahtar_kelimeler.includes(e)));
+  const sorgu = durum.arama.trim();
+  let liste = uygun.map((k) => ({ k, nedenler: [] })); let kismi = false; let cozum = null;
+  if (sorgu && kavramDizin) {
+    const r = window.Arama.ara(sorgu, uygun, kavramDizin);
+    liste = r.sonuc.map((x) => ({ k: x.k, nedenler: x.nedenler })); kismi = r.kismi; cozum = r.cozum;
+  }
+  // "Anlaşılan kavramlar": kullanıcının yazdığı terim hangi kavrama bağlandı?
+  const kutuA = $("#anlasilan");
+  const ipuclari = cozum ? cozum.anlasilan.map((a) => (kati(a.terim) === kati(a.ad) ? a.ad : `${a.terim} → ${a.ad}`)) : [];
+  kutuA.replaceChildren(...ipuclari.map((t) => el("span", { class: "kavram", text: t })));
+  kutuA.hidden = !ipuclari.length;
+  $("#durum").textContent = `${liste.length} akademisyen` + (kismi ? " · tüm kelimeleri birden karşılayan yok, kısmi eşleşmeler gösteriliyor" : "");
   const kutu = $("#kartlar");
-  kutu.replaceChildren(...(sonuc.length ? sonuc.map(kisiKarti) : [el("p", { class: "bos", text: "Eşleşen akademisyen bulunamadı." })]));
+  kutu.replaceChildren(...(liste.length ? liste.map((x) => kisiKarti(x.k, x.nedenler)) : [el("p", { class: "bos", text: "Eşleşen akademisyen bulunamadı." })]));
 }
 
 function cizEtiketler() {
@@ -145,10 +146,10 @@ async function basla() {
     return;
   }
   try {
-    const r2 = await fetch("sozluk.json");
-    if (r2.ok) esAnlamlilar = (await r2.json()).gruplar.map((g) => g.map(kati));
-  } catch { /* sözlük yoksa düz arama */ }
-  veri.akademisyenler.forEach((k) => { k._ara = saklaKisi(k); });
+    const r2 = await fetch("kavramlar.json");
+    if (r2.ok) kavramDizin = window.Arama.kavramDizini((await r2.json()).kavramlar);
+  } catch { /* kavram dosyası yoksa arama kavramsız çalışır */ }
+  veri.akademisyenler.forEach((k) => { k._pi = kavramDizin ? window.Arama.profilDizini(k, kavramDizin) : null; });
   $("#say-kisi").textContent = `(${veri.akademisyenler.length})`;
   $("#uretim").textContent = "Son güncelleme: " + veri.uretim;
   $("#ara").oninput = (e) => { durum.arama = e.target.value; cizKisiler(); };
