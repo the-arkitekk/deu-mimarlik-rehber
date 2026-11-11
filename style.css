@@ -49,3 +49,4 @@ a{color:var(--vurgu)}
 .kavram.eksik-k{background:transparent;border-style:dashed;color:var(--soluk);border-color:var(--soluk)}
 .eksik{color:var(--soluk);font-size:.92rem;margin:8px 0}
 .dugme-link{font:inherit;font-size:.9rem;background:none;border:0;padding:0;color:var(--vurgu);text-decoration:underline;cursor:pointer}
+.yok{color:var(--soluk);font-style:italic}

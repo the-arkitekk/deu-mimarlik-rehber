@@ -15,9 +15,10 @@ function el(tag, nitelik = {}, ...cocuk) {
 const guvenliUrl = (u, ...sema) => { try { return sema.includes(new URL(u).protocol) ? u : ""; } catch { return ""; } };
 
 function liste(baslik, dizi) {
-  if (!dizi.length) return null;
+  // Boş bölümler de gösterilir: her profilde aynı başlıklar olsun, eksik bilgi belli olsun.
   const f = document.createDocumentFragment();
-  f.append(el("dt", { text: baslik }), el("dd", {}, el("ul", {}, ...dizi.map((x) => el("li", { text: x })))));
+  f.append(el("dt", { text: baslik }),
+    el("dd", {}, dizi.length ? el("ul", {}, ...dizi.map((x) => el("li", { text: x }))) : el("span", { class: "yok", text: "Henüz eklenmedi" })));
   return f;
 }
 
