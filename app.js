@@ -88,10 +88,14 @@ function cizEtiketler() {
   }
 }
 
+const KAYNAK_ADLARI = { tubitak: "TÜBİTAK", ab: "Avrupa Komisyonu (Horizon vb.)", bap: "DEÜ BAP" };
 function cizCagrilar() {
   const bugun = new Date().toISOString().slice(0, 10);
-  const liste_ = [...veri.cagrilar].sort((a, b) => (a.son_basvuru || "9").localeCompare(b.son_basvuru || "9"));
-  $("#say-cagri").textContent = `(${liste_.length})`;
+  const secili = ($("#cagri-kaynak") || {}).value || "";
+  const hepsi = veri.cagrilar;
+  const liste_ = hepsi.filter((c) => !secili || (c.kaynak || "elle") === secili)
+    .sort((a, b) => (a.son_basvuru || "9").localeCompare(b.son_basvuru || "9"));
+  $("#say-cagri").textContent = `(${hepsi.length})`;
   const kutu = $("#cagrilar");
   if (!liste_.length) { kutu.replaceChildren(el("p", { class: "bos", text: "Şu an listelenen çağrı yok." })); return; }
   kutu.replaceChildren(...liste_.map((c) => {
@@ -99,6 +103,7 @@ function cizCagrilar() {
     const url = guvenliUrl(c.baglanti, "https:", "http:");
     return el("article", { class: "kart" },
       el("h2", { text: c.cagri_adi }),
+      c.otomatik ? el("div", {}, el("span", { class: "rozet kapali", text: "otomatik bulundu · resmî sayfadan doğrulayın" })) : null,
       el("div", { class: "alt-baslik" }, c.kurum,
         " · son başvuru: " + (c.son_basvuru || "belirtilmemiş") + (kapali ? " (kapandı)" : ""),
         c.butce ? " · bütçe: " + c.butce : ""),
@@ -116,6 +121,13 @@ function cizCagrilar() {
           return d;
         })()));
   }));
+}
+function cagriKaynakSecici() {
+  const kaynaklar = [...new Set(veri.cagrilar.map((c) => c.kaynak || "elle"))];
+  const sec = $("#cagri-kaynak");
+  sec.hidden = kaynaklar.length < 2;
+  kaynaklar.forEach((k) => sec.append(el("option", { value: k, text: KAYNAK_ADLARI[k] || "Elle eklenen" })));
+  sec.onchange = cizCagrilar;
 }
 
 let sekmeSec = () => {};
@@ -193,6 +205,6 @@ async function basla() {
   $("#fakulte").onchange = (e) => { durum.fakulte = e.target.value; durum.bolum = ""; bolumSecenekleri(); cizKisiler(); };
   $("#bolum").onchange = (e) => { durum.bolum = e.target.value; cizKisiler(); };
   $("#acik").onchange = (e) => { durum.acik = e.target.checked; cizKisiler(); };
-  ekipBagla(); cizEtiketler(); cizKisiler(); cizCagrilar();
+  ekipBagla(); cagriKaynakSecici(); cizEtiketler(); cizKisiler(); cizCagrilar();
 }
 basla();
