@@ -24,7 +24,7 @@ input[type=search],select{font:inherit;padding:9px 12px;border:1px solid var(--c
 .avatar{flex:none;width:52px;height:52px;border-radius:50%;background:var(--vurgu-a);color:var(--vurgu);display:grid;place-items:center;font-weight:700;object-fit:cover}
 .alt-baslik{font-size:.88rem;color:var(--soluk)}
 .rozet{display:inline-block;font-size:.75rem;padding:1px 8px;border-radius:999px;border:1px solid currentColor;margin-right:4px}
-.rozet.mim{color:var(--mim)}.rozet.sbp{color:var(--sbp)}.rozet.acik{color:var(--sbp)}.rozet.kapali{color:var(--soluk)}
+.rozet.mim{color:var(--mim)}.rozet.sbp{color:var(--mim)}.rozet.acik{color:var(--sbp)}.rozet.kapali{color:var(--soluk)}
 .ozet{margin:0;font-size:.95rem;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
 .kelimeler{display:flex;flex-wrap:wrap;gap:5px}
 .kelimeler span{font-size:.8rem;background:var(--vurgu-a);color:var(--vurgu);padding:2px 9px;border-radius:999px}
