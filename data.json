@@ -1,0 +1,59 @@
+{
+ "uretim": "2026-11-11",
+ "akademisyenler": [
+  {
+   "id": "erdem-yildirim",
+   "ad": "Doç. Dr. Erdem Yıldırım",
+   "fakulte": "Mimarlık Fakültesi",
+   "bolum": "Mimarlık",
+   "unvan": "Doç. Dr.",
+   "avesis": "https://avesis.deu.edu.tr/erdem.yildirim",
+   "foto": "",
+   "anahtar_kelimeler": [
+    "hesaplamalı tasarım",
+    "yapay zekâ destekli mimari optimizasyon",
+    "sanal gerçeklik",
+    "artırılmış gerçeklik",
+    "yapay zekâ destekli tasarım",
+    "parametrik tasarım",
+    "dijital tasarım eğitimi",
+    "evrimsel hesaplama",
+    "3B modelleme"
+   ],
+   "yontemler": [
+    "sanal gerçeklik prototipleme",
+    "algoritmik tasarım",
+    "karşılaştırmalı araç analizi",
+    "deneysel çalışma",
+    "dijital imalat"
+   ],
+   "proje_deneyimi": [],
+   "ortak_calismaya_acik": true,
+   "guncelleme": "2026-11-11",
+   "taslak": false,
+   "anabilim_dali": "",
+   "diger_alanlar": [],
+   "otomatik_etiketler": [
+    "parametrik ve algoritmik tasarım",
+    "yapay zekâ ve mimarlık (metinden görüntü üretimi)",
+    "sanal ve artırılmış gerçeklik (XR)",
+    "temel tasarım stüdyosu ve mimarlık eğitimi",
+    "topoloji optimizasyonu",
+    "dijital imalat ve mobilya tasarımı",
+    "biyoteknoloji entegrasyonu",
+    "akustik tasarım",
+    "kullanım sonrası değerlendirme"
+   ],
+   "ozet": "Dokuz Eylül Üniversitesi Mimarlık Bölümü'nde öğretim üyesidir. Araştırmaları hesaplamalı tasarım, sanal ve artırılmış gerçeklik, yapay zekâ uygulamaları ve evrimsel hesaplama üzerine yoğunlaşmaktadır. Algoritmik tasarım alanındaki akademik altyapısıyla yapay zekâ destekli mimari optimizasyon, parametrik tasarım ve mimarlık eğitiminde etkili dijital araçların kullanımı konularında yayınlar yapmıştır. Dijital teknolojilerin mimari tasarım süreçlerinde yaratıcılığı ve üretkenliği nasıl artırabileceğini araştırmakta, mimarlık pedagojisine yenilikçi yaklaşımlar kazandırmaktadır.",
+   "yayinlar": [
+    "A 3D quick sketch algorithm in virtual reality for concept design in architectural studio (2025)",
+    "Comparative analysis of text-To-3D AI tools in urban furniture design: Evaluating Luma Genie, Meshy, Tripo, and DeepAI (2026)",
+    "Enhancing Online Learning in Architectural Education: A Virtual Reality Enabled Experiment with Arkio (2024)",
+    "Comparative Analysis Of Leonardo Ai, Midjourney, And Dall-E: Ai's Perspective On Future Cities (2023)",
+    "Opti-Waffle: A Technological Furniture Design and Manufacturing Model (2023)"
+   ],
+   "iletisim": "https://avesis.deu.edu.tr/erdem.yildirim/iletisim"
+  }
+ ],
+ "cagrilar": []
+}

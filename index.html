@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DEÜ Mimarlık – Akademisyen Rehberi</title>
+<meta name="description" content="DEÜ Mimarlık Fakültesi akademisyenleri, çalışma alanları ve ortak proje çağrıları.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="ust">
+  <div class="kap">
+    <h1>Akademisyen Rehberi</h1>
+    <p>DEÜ Mimarlık Fakültesi · Mimarlık ve Şehir ve Bölge Planlama · ortak proje için kimle çalışabileceğinizi bulun</p>
+  </div>
+</header>
+
+<main class="kap">
+  <nav class="sekmeler" role="tablist" aria-label="Bölümler">
+    <button role="tab" id="sek-kisi" aria-selected="true" aria-controls="panel-kisi">Akademisyenler <span id="say-kisi"></span></button>
+    <button role="tab" id="sek-cagri" aria-selected="false" aria-controls="panel-cagri">Çağrılar <span id="say-cagri"></span></button>
+  </nav>
+
+  <section id="panel-kisi" role="tabpanel" aria-labelledby="sek-kisi">
+    <div class="araclar">
+      <input id="ara" type="search" placeholder="Ara: konu, yöntem, isim, proje…" aria-label="Akademisyen ara">
+      <select id="fakulte" aria-label="Fakülte" hidden>
+        <option value="">Tüm fakülteler</option>
+      </select>
+      <select id="bolum" aria-label="Bölüm">
+        <option value="">Tüm bölümler</option>
+      </select>
+      <label class="onay"><input type="checkbox" id="acik"> Yalnızca ortak çalışmaya açık</label>
+    </div>
+    <div class="etiketler" id="etiketler" aria-label="Anahtar kelime filtresi"></div>
+    <p class="durum" id="durum" aria-live="polite"></p>
+    <div class="kartlar" id="kartlar"></div>
+  </section>
+
+  <section id="panel-cagri" role="tabpanel" aria-labelledby="sek-cagri" hidden>
+    <div class="kartlar" id="cagrilar"></div>
+  </section>
+
+</main>
+
+<footer class="kap alt">
+  <p>Bu sayfadaki bilgiler kamuya açık kaynaklara dayanır. Profilinizi güncellemek veya kaldırmak için fakülte koordinatörüyle iletişime geçin.</p>
+  <p id="uretim"></p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
