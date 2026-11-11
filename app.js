@@ -41,10 +41,13 @@ function kisiKarti(k, nedenler = [], etiket = "Eşleşme") {
       el("div", { class: "alt-baslik" },
         el("span", { class: "rozet " + (k.bolum === "Mimarlık" ? "mim" : "sbp"), text: k.bolum }),
         k.taslak ? el("span", { class: "rozet kapali", text: "taslak · onaysız" }) : null,
-        el("span", { class: "rozet " + (k.ortak_calismaya_acik ? "acik" : "kapali"), text: k.ortak_calismaya_acik ? "ortak çalışmaya açık" : "şu an kapalı" })))),
+        k.onay_bekliyor
+          ? el("span", { class: "rozet kapali", text: "AVESİS'ten otomatik · hoca onayı bekleniyor" })
+          : el("span", { class: "rozet " + (k.ortak_calismaya_acik ? "acik" : "kapali"), text: k.ortak_calismaya_acik ? "ortak çalışmaya açık" : "şu an kapalı" })))),
     k.ozet && el("p", { class: "ozet", text: k.ozet }),
     nedenler.length ? el("div", { class: "neden", text: etiket + ": " + nedenler.join(" · ") }) : null,
     el("div", { class: "kelimeler" }, ...k.anahtar_kelimeler.map((x) => el("span", { text: x }))),
+    k.onay_bekliyor ? el("div", { class: "neden", text: "Bu profil, hocanın AVESİS'te yayımladığı bilgilerden otomatik hazırlanmıştır; henüz hoca tarafından gözden geçirilmemiştir. Düzeltme veya kaldırma için fakülte koordinatörüne başvurulabilir." }) : null,
     ayrinti, baglanti.childNodes.length ? baglanti : null);
 }
 
