@@ -201,6 +201,11 @@ async function basla() {
     const r2 = await fetch("kavramlar.json");
     if (r2.ok) kavramDizin = window.Arama.kavramDizini((await r2.json()).kavramlar);
   } catch { /* kavram dosyası yoksa arama kavramsız çalışır */ }
+  // Adil görünüm: her sayfa açılışında sıra rastgele (oturum boyunca sabit; arama sonuçlarında eşit puanlılar bu sırayla gelir).
+  for (let i = veri.akademisyenler.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [veri.akademisyenler[i], veri.akademisyenler[j]] = [veri.akademisyenler[j], veri.akademisyenler[i]];
+  }
   veri.akademisyenler.forEach((k) => { k._pi = kavramDizin ? window.Arama.profilDizini(k, kavramDizin) : null; });
   $("#say-kisi").textContent = `(${veri.akademisyenler.length})`;
   $("#uretim").textContent = "Son güncelleme: " + veri.uretim;
