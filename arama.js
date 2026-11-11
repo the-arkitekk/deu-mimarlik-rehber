@@ -15,8 +15,8 @@
       .replace(/ı/g, "i").normalize("NFD").replace(/[̀-ͯ]/g, "");
   }
   function belirtec(s) { return kati(s).split(/[^a-z0-9]+/).filter((t) => t.length > 1 && !DURAK.has(t)); }
-  // Basit Türkçe kök yaklaşımı: ilk 5 karakter (ekler atılır). Kısa kelimeler olduğu gibi kalır.
-  function kok(t) { return t.length > 5 ? t.slice(0, 5) : t; }
+  // Basit Türkçe kök yaklaşımı: ilk 6 karakter (ekler atılır). Kısa kelimeler olduğu gibi kalır.
+  function kok(t) { return t.length > 6 ? t.slice(0, 6) : t; }
   // İki kök eşleşir: eşit ya da (≥4 harfli) biri diğerinin öneki ("kent" ~ "kents").
   function esles(a, b) {
     if (a === b) return true;
@@ -26,7 +26,21 @@
   }
   function kokler(s) { return belirtec(s).map(kok); }
   function icerir(birimKokleri, v) { return birimKokleri.some((u) => esles(v, u)); }
-  function hepsiVar(birimKokleri, varyantKokleri) { return varyantKokleri.length > 0 && varyantKokleri.every((v) => icerir(birimKokleri, v)); }
+  // Çok kelimeli varyantın kelimeleri birbirine yakın olmalı (en fazla kelime sayısı + 2 uzunluğunda bir pencere);
+  // böylece uzun cümlede dağınık geçen kelimeler yanlışlıkla kavram sayılmaz.
+  function hepsiVar(birimKokleri, varyantKokleri) {
+    const n = varyantKokleri.length;
+    if (!n) return false;
+    if (n === 1) return icerir(birimKokleri, varyantKokleri[0]);
+    if (!varyantKokleri.every((v) => icerir(birimKokleri, v))) return false;
+    const w = n + 2;
+    if (birimKokleri.length <= w) return true;
+    for (let i = 0; i + w <= birimKokleri.length; i++) {
+      const pencere = birimKokleri.slice(i, i + w);
+      if (varyantKokleri.every((v) => icerir(pencere, v))) return true;
+    }
+    return false;
+  }
 
   // --- Kavram dizini
   function kavramDizini(kavramlar) {
@@ -130,6 +144,58 @@
     return { cozum, sonuc: sonuc.map((r) => ({ k: r.k, skor: r.skor, nedenler: r.nedenler, kismi })), kismi };
   }
 
-  const API = { kati, belirtec, kok, esles, kokler, kavramDizini, profilDizini, sorguCozumle, ara };
+  // --- Çağrı metninden ekip önerisi
+  // 1) Metindeki kavramlar bulunur (sık geçen ve özel kavram daha ağırlıklı; şemsiye kavramlar hafif).
+  // 2) Ekip, tamamlayıcı kapsama ile kurulur: her adımda çağrının henüz karşılanmamış kavramlarını en çok karşılayan kişi seçilir
+  //    (aynı uzmanlığı tekrar eden kişi yerine farklı bir katkı sunan; farklı bölümden olana küçük bir öncelik).
+  function cagriKavramlari(metin, dizin) {
+    const birimler = String(metin || "").split(/[\n.!?;:]+/).map((x) => x.trim()).filter((x) => x.length > 2).map(kokler).filter((b) => b.length);
+    const ebeveyn = new Set(); dizin.kavramlar.forEach((k) => k.ust.forEach((u) => ebeveyn.add(u)));
+    const sonuc = [];
+    for (const kv of dizin.kavramlar) {
+      let sayi = 0;
+      for (const b of birimler) if (kv.varyantlar.some((v) => hepsiVar(b, v.kokler))) sayi++;
+      if (!sayi) continue;
+      const faktor = ebeveyn.has(kv.id) ? 0.4 : 1; // şemsiye kavramlar geniş olduğu için hafif
+      sonuc.push({ id: kv.id, ad: kv.ad, sayi, agirlik: (1 + Math.log2(sayi)) * faktor });
+    }
+    return sonuc.sort((a, b) => b.agirlik - a.agirlik).slice(0, 16);
+  }
+
+  function ekipOner(metin, profiller, dizin, secenek) {
+    const en = (secenek && secenek.en) || 5;
+    const kavramlar = cagriKavramlari(metin, dizin);
+    if (!kavramlar.length) return { kavramlar, ekip: [], alternatif: [], eksik: [] };
+    const katki = (k, id) => { const v = k._pi && k._pi.kavram.get(id); return v ? Math.min(v.skor, 6) / 6 : 0; };
+    const kapsama = new Map(kavramlar.map((c) => [c.id, 0]));
+    const ekip = []; const kalan = profiller.slice();
+    while (ekip.length < en && kalan.length) {
+      let enIyi = null;
+      for (const k of kalan) {
+        let kazanc = 0; const getiri = [];
+        for (const c of kavramlar) {
+          const fark = katki(k, c.id) - kapsama.get(c.id);
+          if (fark > 0.15) { kazanc += c.agirlik * fark; getiri.push({ ad: c.ad, fark }); }
+        }
+        const bolumler = new Set(ekip.map((e) => e.k.bolum));
+        if (kazanc > 0 && ekip.length && !bolumler.has(k.bolum)) kazanc *= 1.15; // disiplinlerarası ekip için küçük öncelik
+        if (!enIyi || kazanc > enIyi.kazanc) enIyi = { k, kazanc, getiri };
+      }
+      if (!enIyi || enIyi.kazanc < 0.3) break;
+      enIyi.getiri.sort((a, b) => b.fark - a.fark);
+      ekip.push({ k: enIyi.k, skor: enIyi.kazanc, katki: enIyi.getiri.slice(0, 4).map((x) => x.ad) });
+      for (const c of kavramlar) kapsama.set(c.id, Math.max(kapsama.get(c.id), katki(enIyi.k, c.id)));
+      kalan.splice(kalan.indexOf(enIyi.k), 1);
+    }
+    const alternatif = kalan.map((k) => {
+      let skor = 0; const g = [];
+      for (const c of kavramlar) { const v = katki(k, c.id); if (v > 0.3) { skor += c.agirlik * v; g.push(c.ad); } }
+      return { k, skor, katki: g.slice(0, 4) };
+    }).filter((x) => x.skor > 0).sort((a, b) => b.skor - a.skor).slice(0, 5);
+    const eksik = kavramlar.filter((c) => kapsama.get(c.id) < 0.3).map((c) => c.ad);
+    return { kavramlar: kavramlar.map((c) => ({ ...c, kapsam: kapsama.get(c.id) })), ekip, alternatif, eksik };
+  }
+
+  const API = { cagriKavramlari, ekipOner, kati, belirtec, kok, esles, kokler, kavramDizini, profilDizini, sorguCozumle, ara };
   if (typeof module !== "undefined" && module.exports) module.exports = API; else g.Arama = API;
 })(typeof window !== "undefined" ? window : this);

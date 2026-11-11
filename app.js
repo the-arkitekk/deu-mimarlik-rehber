@@ -21,7 +21,7 @@ function liste(baslik, dizi) {
   return f;
 }
 
-function kisiKarti(k, nedenler = []) {
+function kisiKarti(k, nedenler = [], etiket = "Eşleşme") {
   const unvanlar = /^(prof\.?|doç\.?|dr\.?|öğr\.?|üyesi|arş\.?|gör\.?|örnek|–)$/i;
   const adlar = k.ad.split(/\s+/).filter((x) => x && !unvanlar.test(x));
   const bas3 = (adlar[0]?.[0] || "?") + (adlar.length > 1 ? adlar[adlar.length - 1][0] : "");
@@ -43,7 +43,7 @@ function kisiKarti(k, nedenler = []) {
         k.taslak ? el("span", { class: "rozet kapali", text: "taslak · onaysız" }) : null,
         el("span", { class: "rozet " + (k.ortak_calismaya_acik ? "acik" : "kapali"), text: k.ortak_calismaya_acik ? "ortak çalışmaya açık" : "şu an kapalı" })))),
     k.ozet && el("p", { class: "ozet", text: k.ozet }),
-    nedenler.length ? el("div", { class: "neden", text: "Eşleşme: " + nedenler.join(" · ") }) : null,
+    nedenler.length ? el("div", { class: "neden", text: etiket + ": " + nedenler.join(" · ") }) : null,
     el("div", { class: "kelimeler" }, ...k.anahtar_kelimeler.map((x) => el("span", { text: x }))),
     ayrinti, baglanti.childNodes.length ? baglanti : null);
 }
@@ -105,19 +105,55 @@ function cizCagrilar() {
       c.ozet && el("p", { class: "ozet", text: c.ozet }),
       c.kapsam.length ? el("div", { class: "kelimeler" }, ...c.kapsam.map((x) => el("span", { text: x }))) : null,
       c.aranan_uzmanliklar.length ? el("div", { class: "alt-baslik", text: "Aranan uzmanlıklar: " + c.aranan_uzmanliklar.join(", ") }) : null,
-      url ? el("div", { class: "baglantilar" }, el("a", { href: url, rel: "noopener", target: "_blank", text: "Çağrı sayfası" })) : null);
+      el("div", { class: "baglantilar" },
+        url ? el("a", { href: url, rel: "noopener", target: "_blank", text: "Çağrı sayfası" }) : null,
+        (() => {
+          const d = el("button", { type: "button", class: "dugme-link", text: "Bu çağrıya uygun ekibi bul" });
+          d.onclick = () => {
+            $("#ekip-metin").value = [c.cagri_adi, c.ozet, c.kapsam.join(". "), c.aranan_uzmanliklar.join(". "), c.notlar.join(". ")].filter(Boolean).join(". ");
+            sekmeSec("ekip"); ekipCiz();
+          };
+          return d;
+        })()));
   }));
 }
 
+let sekmeSec = () => {};
 function sekmeler() {
-  const sec = (ad) => {
-    for (const k of ["kisi", "cagri"]) {
+  sekmeSec = (ad) => {
+    for (const k of ["kisi", "cagri", "ekip"]) {
       $("#sek-" + k).setAttribute("aria-selected", String(k === ad));
       $("#panel-" + k).hidden = k !== ad;
     }
   };
-  $("#sek-kisi").onclick = () => sec("kisi");
-  $("#sek-cagri").onclick = () => sec("cagri");
+  $("#sek-kisi").onclick = () => sekmeSec("kisi");
+  $("#sek-cagri").onclick = () => sekmeSec("cagri");
+  $("#sek-ekip").onclick = () => sekmeSec("ekip");
+}
+
+// Çağrıdan ekip önerisi: metin tarayıcıda işlenir (kavram katalogu + tamamlayıcı kapsama).
+function ekipCiz() {
+  const metin = $("#ekip-metin").value;
+  const sonuc = $("#ekip-sonuc");
+  if (!kavramDizin) { $("#ekip-durum").textContent = "Kavram kataloğu yüklenemedi."; return; }
+  const aday = veri.akademisyenler.filter((k) => k.ortak_calismaya_acik);
+  const r = window.Arama.ekipOner(metin, aday, kavramDizin);
+  if (!r.kavramlar.length) {
+    $("#ekip-durum").textContent = "Metinde tanıdığım bir konu bulunamadı. Daha ayrıntılı bir metin deneyin.";
+    sonuc.hidden = true; return;
+  }
+  $("#ekip-durum").textContent = "";
+  $("#ekip-kavramlar").replaceChildren(...r.kavramlar.map((c) => el("span", { class: "kavram" + (c.kapsam < 0.3 ? " eksik-k" : ""), text: c.ad })));
+  const eksik = $("#ekip-eksik");
+  eksik.hidden = !r.eksik.length;
+  eksik.textContent = r.eksik.length ? "Fakültede yeterli uzman bulunamayan konular: " + r.eksik.join(", ") + ". Dış ortak gerekebilir." : "";
+  $("#ekip-kartlar").replaceChildren(...(r.ekip.length ? r.ekip.map((x) => kisiKarti(x.k, x.katki, "Katkısı")) : [el("p", { class: "bos", text: "Bu çağrı için uygun bir ekip kurulamadı." })]));
+  $("#ekip-alt-baslik").hidden = !r.alternatif.length;
+  $("#ekip-alternatif").replaceChildren(...r.alternatif.map((x) => kisiKarti(x.k, x.katki, "Uyumlu konular")));
+  sonuc.hidden = false;
+}
+function ekipBagla() {
+  $("#ekip-form").onsubmit = (e) => { e.preventDefault(); ekipCiz(); };
 }
 
 // Fakülte seçici yalnızca birden fazla fakülte varsa görünür; bölüm listesi veriden üretilir.
@@ -157,6 +193,6 @@ async function basla() {
   $("#fakulte").onchange = (e) => { durum.fakulte = e.target.value; durum.bolum = ""; bolumSecenekleri(); cizKisiler(); };
   $("#bolum").onchange = (e) => { durum.bolum = e.target.value; cizKisiler(); };
   $("#acik").onchange = (e) => { durum.acik = e.target.checked; cizKisiler(); };
-  cizEtiketler(); cizKisiler(); cizCagrilar();
+  ekipBagla(); cizEtiketler(); cizKisiler(); cizCagrilar();
 }
 basla();

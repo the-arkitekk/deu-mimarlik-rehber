@@ -41,3 +41,11 @@ a{color:var(--vurgu)}
 .anlasilan::before{content:"Anlaşılan kavram:";font-size:.85rem;color:var(--soluk)}
 .kavram{font-size:.85rem;padding:2px 10px;border-radius:999px;background:var(--vurgu-a);color:var(--vurgu);border:1px solid var(--vurgu)}
 .neden{font-size:.82rem;color:var(--soluk);border-left:3px solid var(--cizgi);padding-left:8px}
+.ekip-form{max-width:760px;display:flex;flex-direction:column;gap:10px}
+.ekip-form textarea{font:inherit;padding:10px 12px;border:1px solid var(--cizgi);border-radius:8px;background:var(--kart);color:var(--yazi);width:100%;resize:vertical}
+.ekip-form button[type=submit]{font:inherit;font-weight:600;background:var(--vurgu);color:#fff;border:0;border-radius:8px;padding:9px 22px;cursor:pointer}
+.satir{display:flex;gap:12px;align-items:center}
+.ekip-baslik{font-size:1.05rem;margin:22px 0 8px}
+.kavram.eksik-k{background:transparent;border-style:dashed;color:var(--soluk);border-color:var(--soluk)}
+.eksik{color:var(--soluk);font-size:.92rem;margin:8px 0}
+.dugme-link{font:inherit;font-size:.9rem;background:none;border:0;padding:0;color:var(--vurgu);text-decoration:underline;cursor:pointer}
