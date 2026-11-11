@@ -60,7 +60,7 @@
     const birimler = [];
     const ekle = (liste, agirlik) => (liste || []).forEach((m) => { const kk = kokler(m); if (kk.length) birimler.push({ metin: m, agirlik, kokler: kk }); });
     ekle(k.anahtar_kelimeler, 3); ekle(k.otomatik_etiketler, 3); ekle(k.diger_alanlar, 2); ekle(k.yontemler, 2);
-    ekle(k.proje_deneyimi, 2); ekle(k.yayinlar, 1);
+    ekle(k.proje_deneyimi, 2); ekle(k.projeler, 2); ekle(k.yayinlar, 1);
     (k.ozet ? k.ozet.split(/[.!?]+\s+/) : []).forEach((c) => ekle([c], 1.5));
     ekle([k.ad, k.bolum, k.anabilim_dali].filter(Boolean), 1);
 

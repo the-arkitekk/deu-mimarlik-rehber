@@ -34,7 +34,7 @@ function kisiKarti(k, nedenler = [], etiket = "Eşleşme") {
   const il = guvenliUrl(k.iletisim, "https:", "http:");
   if (il) baglanti.append(el("a", { href: il, rel: "noopener", target: "_blank", text: "İletişim" }));
   const ayrinti = el("details", {}, el("summary", { text: "Ayrıntılar" }),
-    el("dl", {}, liste("Yöntemler", k.yontemler), liste("Proje deneyimi", k.proje_deneyimi), liste("Öne çıkan yayınlar / projeler", k.yayinlar)));
+    el("dl", {}, liste("Yöntemler", k.yontemler), liste("Proje deneyimi", k.proje_deneyimi), liste("Öne çıkan projeler", k.projeler || []), liste("Öne çıkan yayınlar", k.yayinlar)));
   return el("article", { class: "kart" },
     el("div", { class: "baslik" }, gorsel, el("div", {},
       el("h2", { text: k.ad }),
