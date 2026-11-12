@@ -137,7 +137,7 @@ function cizProgramlar() {
     const url = guvenliUrl(p.baglanti, "https:", "http:");
     return el("article", { class: "kart" },
       el("h2", { text: p.program_adi }),
-      el("div", {}, el("span", { class: "rozet kapali", text: p.kurum }), p.otomatik ? el("span", { class: "rozet kapali", text: "otomatik derlendi" }) : null),
+      el("div", {}, el("span", { class: "rozet kapali", text: p.kurum }), el("span", { class: "rozet kapali", text: p.otomatik ? "otomatik derlendi" : "derlenmiş tanıtım" })),
       p.cagri_durumu ? el("div", { class: "alt-baslik", text: "Çağrı: " + p.cagri_durumu }) : null,
       p.butce ? el("div", { class: "alt-baslik", text: "Bütçe: " + p.butce }) : null,
       p.sure ? el("div", { class: "alt-baslik", text: "Süre: " + p.sure }) : null,

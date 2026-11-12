@@ -2464,6 +2464,23 @@
    ]
   },
   {
+   "id": "tubitak-1071-uluslararasi-isbirligi-projeleri-destek-programi",
+   "program_adi": "1071 - Uluslararası İşbirliği Projeleri Destek Programı",
+   "kurum": "TÜBİTAK",
+   "kaynak": "tubitak",
+   "butce": "Çağrı kapsamında destek üst limiti ve desteklenecek bütçe kalemleri değişiklik gösterebilmektedir. Başvurulacak çağrıya ilişkin çağrı metni incelenmelidir. Belge ARDEB-BİDEB Programlarına Eş Zamanlı Olarak Başvuru Yapabilme Koşulları",
+   "sure": "Çağrı kapsamında değişiklik gösterebilmektedir. Başvurulacak çağrıya ilişkin çağrı metni incelenmelidir.",
+   "cagri_durumu": "Çağrı dönemleri TÜBİTAK duyurularında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://tubitak.gov.tr/tr/destekler/akademik/uluslararasi-destek-programlari/1071-uluslararasi-isbirligi-projeleri-destek-programi",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "1071 Destek Programı’nın amacı, ülkemiz araştırmacılarının uluslararası destek fonlarına başvuru kapasitesinin ve başvurularda başarı performansının iyileştirilmesi ile ikili ve çok taraflı uluslararası Ar-Ge işbirliklerine katılımın arttırılmasına yönelik belirlenecek çağrı başlıkları kapsamındaki projelerin desteklenmesidir. Program kapsamında, farklı disiplinlerde ve farklı proje tiplerinde akademiye, akademi-sanayi işbirliğine veya sanayiye yönelik çağrılar açılmaktadır. Açılan çağrılarda Avrupa Birliği Çerçeve Programları ve benzeri uluslararası katılımı destekleyici ikili ve çok taraflı mekanizmalar ile uyumlu bir şekilde üniversite-sanayi-kamu işbirlikleri desteklenebilmektedir.",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
    "id": "tubitak-3001-baslangic-ar-ge-projeleri-destekleme-programi",
    "program_adi": "3001 - Başlangıç Ar-Ge Projeleri Destekleme Programı",
    "kurum": "TÜBİTAK",
@@ -2544,6 +2561,210 @@
    "guncelleme": "2026-11-12",
    "otomatik": true,
    "ozet": "Özel kuruluşta yürütülecek projelerde, proje yürütücüsünün söz konusu kuruluşta, projenin öneri tarihi itibariyle en az altı ay görev almış olması gerekmektedir.",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "tubitak-ufuk-avrupa-programi",
+   "program_adi": "Ufuk Avrupa Programı",
+   "kurum": "TÜBİTAK",
+   "kaynak": "tubitak",
+   "butce": "",
+   "sure": "",
+   "cagri_durumu": "Çağrı dönemleri TÜBİTAK duyurularında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://tubitak.gov.tr/tr/destekler/akademik/uluslararasi-destek-programlari/ufuk-avrupa-programi",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "Avrupa Birliği Ufuk Avrupa Programı kapsamındaki tüm destekler hakkında detaylı bilgi için",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "ufuk-avrupa-arastirma-konseyi-erc",
+   "program_adi": "Avrupa Araştırma Konseyi (ERC)",
+   "kurum": "Ufuk Avrupa (AB)",
+   "kaynak": "ufuk",
+   "butce": "",
+   "sure": "",
+   "cagri_durumu": "Çağrılar AB portalında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://ufukavrupa.org.tr/tr/alanlar-kumeler/avrupa-arastirma-konseyi",
+   "guncelleme": "2026-11-12",
+   "otomatik": false,
+   "ozet": "Sınır tanımayan temel araştırma için bireysel araştırmacılara verilen, konu kısıtlaması olmayan, mükemmeliyet temelli bireysel hibeler. Güncel çağrılar için Ufuk Avrupa ulusal portalına ve AB Funding & Tenders portalına bakın; Türkiye'den katılım ve destek koşulları çağrıya göre değişir.",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "ufuk-avrupa-yenilik-konseyi-eic",
+   "program_adi": "Avrupa Yenilik Konseyi (EIC)",
+   "kurum": "Ufuk Avrupa (AB)",
+   "kaynak": "ufuk",
+   "butce": "",
+   "sure": "",
+   "cagri_durumu": "Çağrılar AB portalında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://ufukavrupa.org.tr/tr/alanlar-kumeler/avrupa-yenilik-konseyi-eic",
+   "guncelleme": "2026-11-12",
+   "otomatik": false,
+   "ozet": "Çığır açan teknolojilerin ve yenilikçi girişimlerin geliştirilmesi için destekler. Çağrılar ve kapanış tarihleri programda duyurulur. Güncel çağrılar için Ufuk Avrupa ulusal portalına ve AB Funding & Tenders portalına bakın; Türkiye'den katılım ve destek koşulları çağrıya göre değişir.",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "ufuk-kume-2-kultur-yaraticilik-ve-kapsayici-toplumlar",
+   "program_adi": "Küme 2: Kültür, Yaratıcılık ve Kapsayıcı Toplumlar",
+   "kurum": "Ufuk Avrupa (AB)",
+   "kaynak": "ufuk",
+   "butce": "",
+   "sure": "",
+   "cagri_durumu": "Çağrılar AB portalında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://ufukavrupa.org.tr/tr/alanlar-kumeler/kultur-yaraticilik-ve-kapsayici-toplumlar",
+   "guncelleme": "2026-11-12",
+   "otomatik": false,
+   "ozet": "Demokrasi ve yönetişim, kültürel miras ve yaratıcı sektörler, sosyal ve ekonomik dönüşümler ile kapsayıcı toplumlar konularında iş birliğine dayalı araştırma ve yenilik projeleri. Mimarlık ve şehircilik açısından özellikle kültürel miras ve kapsayıcı kentler konuları ilgilidir. Güncel çağrılar için Ufuk Avrupa ulusal portalına ve AB Funding & Tenders portalına bakın; Türkiye'den katılım ve destek koşulları çağrıya göre değişir.",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "ufuk-kume-3-toplum-icin-sivil-guvenlik",
+   "program_adi": "Küme 3: Toplum için Sivil Güvenlik",
+   "kurum": "Ufuk Avrupa (AB)",
+   "kaynak": "ufuk",
+   "butce": "",
+   "sure": "",
+   "cagri_durumu": "Çağrılar AB portalında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://ufukavrupa.org.tr/tr/alanlar-kumeler/toplum-icin-sivil-guvenlik",
+   "guncelleme": "2026-11-12",
+   "otomatik": false,
+   "ozet": "Afetlere dayanıklılık, kritik altyapıların korunması, sınır ve siber güvenlik gibi toplumsal güvenlik konularında iş birliği projeleri. Afet riski ve dayanıklılık çalışmaları için ilgili olabilir. Güncel çağrılar için Ufuk Avrupa ulusal portalına ve AB Funding & Tenders portalına bakın; Türkiye'den katılım ve destek koşulları çağrıya göre değişir.",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "ufuk-kume-4-dijital-endustri-ve-uzay",
+   "program_adi": "Küme 4: Dijital, Endüstri ve Uzay",
+   "kurum": "Ufuk Avrupa (AB)",
+   "kaynak": "ufuk",
+   "butce": "",
+   "sure": "",
+   "cagri_durumu": "Çağrılar AB portalında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://ufukavrupa.org.tr/tr/alanlar-kumeler/dijital-endustri-ve-uzay",
+   "guncelleme": "2026-11-12",
+   "otomatik": false,
+   "ozet": "Dijital teknolojiler, ileri malzemeler, üretim ve uzay alanlarında iş birliği projeleri. Dijital tasarım, yapay zekâ ve ileri üretim konuları için ilgili olabilir. Güncel çağrılar için Ufuk Avrupa ulusal portalına ve AB Funding & Tenders portalına bakın; Türkiye'den katılım ve destek koşulları çağrıya göre değişir.",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "ufuk-kume-5-i-klim-enerji-ve-mobilite",
+   "program_adi": "Küme 5: İklim, Enerji ve Mobilite",
+   "kurum": "Ufuk Avrupa (AB)",
+   "kaynak": "ufuk",
+   "butce": "",
+   "sure": "",
+   "cagri_durumu": "Çağrılar AB portalında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://ufukavrupa.org.tr/tr/alanlar-kumeler/iklim-enerji-ve-mobilite",
+   "guncelleme": "2026-11-12",
+   "otomatik": false,
+   "ozet": "İklim bilimi, enerji sistemleri, ulaşım ve sürdürülebilir yapılı çevre/kentler konuları. Binaların enerji dönüşümü, iklim uyumu ve akıllı kentler için en ilgili kümelerden biridir. Güncel çağrılar için Ufuk Avrupa ulusal portalına ve AB Funding & Tenders portalına bakın; Türkiye'den katılım ve destek koşulları çağrıya göre değişir.",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "ufuk-kume-6-gida-biyoekonomi-dogal-kaynaklar-tarim-ve-cevre",
+   "program_adi": "Küme 6: Gıda, Biyoekonomi, Doğal Kaynaklar, Tarım ve Çevre",
+   "kurum": "Ufuk Avrupa (AB)",
+   "kaynak": "ufuk",
+   "butce": "",
+   "sure": "",
+   "cagri_durumu": "Çağrılar AB portalında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://ufukavrupa.org.tr/tr/alanlar-kumeler/gida-biyoekonomi-dogal-kaynaklar-tarim-ve-cevre",
+   "guncelleme": "2026-11-12",
+   "otomatik": false,
+   "ozet": "Gıda sistemleri, biyoekonomi, doğal kaynaklar, tarım ve çevre alanları; kırsal alanlar, doğa temelli çözümler ve biyoçeşitlilik konularıyla ilgilidir. Güncel çağrılar için Ufuk Avrupa ulusal portalına ve AB Funding & Tenders portalına bakın; Türkiye'den katılım ve destek koşulları çağrıya göre değişir.",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "ufuk-marie-sk-odowska-curie-msca",
+   "program_adi": "Marie Skłodowska-Curie (MSCA)",
+   "kurum": "Ufuk Avrupa (AB)",
+   "kaynak": "ufuk",
+   "butce": "",
+   "sure": "",
+   "cagri_durumu": "Çağrılar AB portalında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://ufukavrupa.org.tr/tr/alanlar-kumeler/marie-sklodowska-curie-alani-tum-cagrilar",
+   "guncelleme": "2026-11-12",
+   "otomatik": false,
+   "ozet": "Araştırmacıların hareketliliği ve kariyer gelişimi için burslar, doktora ağları ve değişim destekleri. Güncel çağrılar için Ufuk Avrupa ulusal portalına ve AB Funding & Tenders portalına bakın; Türkiye'den katılım ve destek koşulları çağrıya göre değişir.",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "ufuk-misyon-i-klim-degisikligine-uyum",
+   "program_adi": "Misyon: İklim Değişikliğine Uyum",
+   "kurum": "Ufuk Avrupa (AB)",
+   "kaynak": "ufuk",
+   "butce": "",
+   "sure": "",
+   "cagri_durumu": "Çağrılar AB portalında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://ufukavrupa.org.tr/tr/iklim-degisikligine-uyum-misyonu-1",
+   "guncelleme": "2026-11-12",
+   "otomatik": false,
+   "ozet": "Avrupa bölgelerinin ve topluluklarının iklim değişikliğine uyumunu ve iklim dirençli bir geleceğe geçişi hızlandırmayı hedefler; kentsel ve bölgesel dayanıklılık, kıyı ve sel riskleri ile ilgilidir. Güncel çağrılar için Ufuk Avrupa ulusal portalına ve AB Funding & Tenders portalına bakın; Türkiye'den katılım ve destek koşulları çağrıya göre değişir.",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "ufuk-misyon-i-klim-notr-ve-akilli-sehirler",
+   "program_adi": "Misyon: İklim-Nötr ve Akıllı Şehirler",
+   "kurum": "Ufuk Avrupa (AB)",
+   "kaynak": "ufuk",
+   "butce": "",
+   "sure": "",
+   "cagri_durumu": "Çağrılar AB portalında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://ufukavrupa.org.tr/tr/iklim-notr-ve-akilli-sehirler-misyonu",
+   "guncelleme": "2026-11-12",
+   "otomatik": false,
+   "ozet": "2030'a kadar 100 iklim-nötr ve akıllı şehir hedefleyen AB misyonu; kentsel enerji, mobilite, yapılı çevre ve kent yönetişimi konularını kapsar. Güncel çağrılar için Ufuk Avrupa ulusal portalına ve AB Funding & Tenders portalına bakın; Türkiye'den katılım ve destek koşulları çağrıya göre değişir.",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "ufuk-misyon-new-european-bauhaus-yeni-avrupa-bauhaus",
+   "program_adi": "Misyon: New European Bauhaus (Yeni Avrupa Bauhaus)",
+   "kurum": "Ufuk Avrupa (AB)",
+   "kaynak": "ufuk",
+   "butce": "",
+   "sure": "",
+   "cagri_durumu": "Çağrılar AB portalında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://ufukavrupa.org.tr/tr/new-european-bauhaus-misyonu",
+   "guncelleme": "2026-11-12",
+   "otomatik": false,
+   "ozet": "Güzel, sürdürülebilir ve kapsayıcı yaşam ortamları için tasarım, mimarlık ve kentsel dönüşümü bir araya getiren girişim; mahalle ölçeğinde dönüşüm, sürdürülebilir yapı ve kamusal mekân konularını içerir. Mimarlık ve planlama alanı için doğrudan ilgilidir. Güncel çağrılar için Ufuk Avrupa ulusal portalına ve AB Funding & Tenders portalına bakın; Türkiye'den katılım ve destek koşulları çağrıya göre değişir.",
    "kosullar": [
     "Ayrıntılar için resmî program sayfasına bakın."
    ]
