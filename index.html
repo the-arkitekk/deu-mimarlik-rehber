@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>DEÜ Mimarlık – Akademisyen Rehberi</title>
 <meta name="description" content="DEÜ Mimarlık Fakültesi akademisyenleri, çalışma alanları ve ortak proje çağrıları.">
-<link rel="stylesheet" href="style.css?v=20261111201449">
+<link rel="stylesheet" href="style.css?v=20261112051149">
 </head>
 <body>
 <header class="ust">
@@ -20,6 +20,7 @@
   <nav class="sekmeler" role="tablist" aria-label="Bölümler">
     <button role="tab" id="sek-kisi" aria-selected="true" aria-controls="panel-kisi">Akademisyenler <span id="say-kisi"></span></button>
     <button role="tab" id="sek-cagri" aria-selected="false" aria-controls="panel-cagri">Çağrılar <span id="say-cagri"></span></button>
+    <button role="tab" id="sek-program" aria-selected="false" aria-controls="panel-program">Destek programları <span id="say-program"></span></button>
     <button role="tab" id="sek-ekip" aria-selected="false" aria-controls="panel-ekip">Çağrıya uygun ekip</button>
   </nav>
 
@@ -46,6 +47,12 @@
   </section>
 
 
+  <section id="panel-program" role="tabpanel" aria-labelledby="sek-program" hidden>
+    <p class="alt program-not">Bunlar tarihe bağlı çağrı değil, sürekli yürüyen destek programlarıdır. Güncel çağrı dönemleri için "Çağrılar" sekmesine ve resmî program sayfalarına bakın.</p>
+    <div class="araclar"><select id="program-kurum" aria-label="Kurum" hidden><option value="">Tüm kurumlar</option></select></div>
+    <div class="kartlar" id="programlar"></div>
+  </section>
+
   <section id="panel-ekip" role="tabpanel" aria-labelledby="sek-ekip" hidden>
     <form id="ekip-form" class="ekip-form">
       <label for="ekip-metin">Çağrı metnini yapıştırın (ya da Çağrılar sekmesinden bir çağrı seçin)</label>
@@ -69,7 +76,7 @@
   <p>Bu sayfadaki bilgiler kamuya açık kaynaklara dayanır. Profilinizi güncellemek veya kaldırmak için fakülte koordinatörüyle iletişime geçin.</p>
   <p id="uretim"></p>
 </footer>
-<script src="arama.js?v=20261111201449"></script>
-<script src="app.js?v=20261111201449"></script>
+<script src="arama.js?v=20261112051149"></script>
+<script src="app.js?v=20261112051149"></script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 {
- "uretim": "2026-11-11",
+ "uretim": "2026-11-12",
  "akademisyenler": [
   {
    "id": "burcu-silaydin",
@@ -2161,6 +2161,391 @@
    "ozet": "Ana içeriğe atla Ufuk Avrupa Programı Sürdürülebilir Mavi Ekonomi Ortaklığı (SBEP) 2026 Yılı Çok Uluslu Ortak Çağrısı Başvuruya Açıldı + - 0 27 Eyl 2026 Ufuk Avrupa Programı kapsamında yürütülen Sürdürülebilir Mavi Ekonomi Ortaklığı (SBEP) 2026 Yılı Çok Uluslu Ortak Çağrısı başvuruya açıldı. Ufuk Avrupa Programı kapsamında desteklenen Sürdürülebilir Mavi Ekonomi Ortaklığı (Sustainable Blue Economy Partnership-SBEP) ortak fonlama ortaklığı projesidir. Ortaklık ile büyük ölçüde sürdürülebilir olmayan deniz ekonomisinden yenilenebilir ve döngüsel bir mavi ekonomiye adil ve kapsayıcı geçişi desteklemeye yönelik Ar-Ge ve Yenilik projelerinin hayata geçirilmesi amaçlanmaktadır. Bu kapsamda, desteklenecek projeler uluslararası bir hakem kurulu tarafından değerlendirildikten sonra ülkelerin ulusal fonlama kuruluşları tarafından finanse edilecektir. SBEP Ortaklığı 2026 Çok Uluslu Ortak Çağrısı 14",
    "notlar": [
     "Bu çağrı otomatik bulundu; tarih, bütçe ve uygunluk koşullarını resmî sayfadan doğrulayın."
+   ]
+  }
+ ],
+ "programlar": [
+  {
+   "id": "bap-cok-disiplinli-arastirma-projesi",
+   "program_adi": "Çok Disiplinli Araştırma Projesi",
+   "kurum": "DEÜ BAP",
+   "kaynak": "bap",
+   "butce": "750.000,00 TL+ burs",
+   "sure": "",
+   "cagri_durumu": "Sürekli Açık",
+   "kapsam": [],
+   "baglanti": "https://bap.deu.edu.tr/tr/proje-turleri/",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "DEÜ BAP Çok Disiplinli Araştırma Projesi: bütçe üst limiti 750.000,00 TL+ burs; bursiyer desteği: 2 bursiyer; kongre/sempozyum desteği: Yok.",
+   "kosullar": [
+    "Performansa dayalı bütçe uygulaması: Var",
+    "Yayın koşulu: Fen, Mühendislik ve Sağlık alanlarındaki projeler için; SCOPUS veri tabanında taranan, Q1 veya Q2 kategorisinde yer alan dergilerde en az iki (2) araştırma makalesi veya derleme makale yayınlanması zorunludur. Sosyal Bilimler alanındaki projeler için; SCOPUS veri tabanında taranan ve Q1 veya Q2 kategorisinde yer alan dergilerde bir (1) araştırma makalesi veya derleme makale ve SCOPUS veri tabanında taranan dergilerde bir (1) araştırma makalesi veya derleme makale veya SCOPUS veri tabanında taranan kitap veya kitap içi bölüm olmak üzere iki (2) adet yayının yayımlanmış olması şartı aranır."
+   ]
+  },
+  {
+   "id": "bap-doktora-uzmanlik-tez-ve-sanatta-yeterlik-projeleri",
+   "program_adi": "Doktora, Uzmanlık Tez ve Sanatta Yeterlik Projeleri",
+   "kurum": "DEÜ BAP",
+   "kaynak": "bap",
+   "butce": "200.000,00 TL (Burs Dahil)",
+   "sure": "",
+   "cagri_durumu": "Sürekli Açık",
+   "kapsam": [],
+   "baglanti": "https://bap.deu.edu.tr/tr/proje-turleri/",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "DEÜ BAP Doktora, Uzmanlık Tez ve Sanatta Yeterlik Projeleri: bütçe üst limiti 200.000,00 TL (Burs Dahil); bursiyer desteği: 1 bursiyer; kongre/sempozyum desteği: 25.000,00 TL.",
+   "kosullar": [
+    "Performansa dayalı bütçe uygulaması: Var",
+    "Yayın koşulu: Bu proje türünde ilgili enstitünün mezuniyet koşulları için belirlenen şartlar geçerlidir."
+   ]
+  },
+  {
+   "id": "bap-genel-arastirma-projesi",
+   "program_adi": "Genel Araştırma Projesi",
+   "kurum": "DEÜ BAP",
+   "kaynak": "bap",
+   "butce": "500.000,00 TL+ burs",
+   "sure": "",
+   "cagri_durumu": "Sürekli Açık",
+   "kapsam": [],
+   "baglanti": "https://bap.deu.edu.tr/tr/proje-turleri/",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "DEÜ BAP Genel Araştırma Projesi: bütçe üst limiti 500.000,00 TL+ burs; bursiyer desteği: 2 bursiyer; kongre/sempozyum desteği: Yok.",
+   "kosullar": [
+    "Performansa dayalı bütçe uygulaması: Var",
+    "Yayın koşulu: Fen, Mühendislik ve Sağlık alanlarındaki projeler için; SCOPUS veri tabanında taranan, Q1 veya Q2 kategorisinde yer alan dergilerde en az bir (1) araştırma makalesi veya derleme makale yayınlanması zorunludur. Sosyal Bilimler alanındaki projeler için; SCOPUS veri tabanında taranan dergilerde en az bir (1) araştırma makalesi veya derleme makale veya SCOPUS veri tabanında taranan kitap veya kitap içi bölüm yayınlanması zorunludur."
+   ]
+  },
+  {
+   "id": "bap-hizli-destek-projesi",
+   "program_adi": "Hızlı Destek Projesi",
+   "kurum": "DEÜ BAP",
+   "kaynak": "bap",
+   "butce": "100.000,00 TL",
+   "sure": "",
+   "cagri_durumu": "Sürekli Açık",
+   "kapsam": [],
+   "baglanti": "https://bap.deu.edu.tr/tr/proje-turleri/",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "DEÜ BAP Hızlı Destek Projesi: bütçe üst limiti 100.000,00 TL; bursiyer desteği: Yok; kongre/sempozyum desteği: Yok.",
+   "kosullar": [
+    "Performansa dayalı bütçe uygulaması: Yok",
+    "Yayın koşulu: Yok"
+   ]
+  },
+  {
+   "id": "bap-kariyer-baslangic-destek-projesi",
+   "program_adi": "Kariyer Başlangıç Destek Projesi",
+   "kurum": "DEÜ BAP",
+   "kaynak": "bap",
+   "butce": "250.000,00 TL",
+   "sure": "",
+   "cagri_durumu": "Sürekli Açık",
+   "kapsam": [],
+   "baglanti": "https://bap.deu.edu.tr/tr/proje-turleri/",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "DEÜ BAP Kariyer Başlangıç Destek Projesi: bütçe üst limiti 250.000,00 TL; bursiyer desteği: Yok; kongre/sempozyum desteği: 25.000,00 TL.",
+   "kosullar": [
+    "Performansa dayalı bütçe uygulaması: Yok",
+    "Yayın koşulu: Fen, Mühendislik ve Sağlık alanlarındaki projeler için; Scopus veri tabanında taranan dergilerde en az bir (1) araştırma makalesi veya derleme makale yayınlanması zorunludur. Sosyal Bilimler alanındaki projeler için; Scopus veri tabanında taranan dergilerde en az bir (1) araştırma makalesi veya derleme makale veya SCOPUS veri tabanında taranan kitap veya kitap içi bölüm yayınlanması zorunludur."
+   ]
+  },
+  {
+   "id": "bap-lisans-ogrencisi-katilimli-arastirma-projesi",
+   "program_adi": "Lisans Öğrencisi Katılımlı Araştırma Projesi",
+   "kurum": "DEÜ BAP",
+   "kaynak": "bap",
+   "butce": "75.000,00 TL",
+   "sure": "",
+   "cagri_durumu": "Sürekli Açık",
+   "kapsam": [],
+   "baglanti": "https://bap.deu.edu.tr/tr/proje-turleri/",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "DEÜ BAP Lisans Öğrencisi Katılımlı Araştırma Projesi: bütçe üst limiti 75.000,00 TL; bursiyer desteği: Yok; kongre/sempozyum desteği: Yok.",
+   "kosullar": [
+    "Performansa dayalı bütçe uygulaması: Yok",
+    "Yayın koşulu: Yok"
+   ]
+  },
+  {
+   "id": "bap-sanayi-i-s-birligi-projesi",
+   "program_adi": "Sanayi İş Birliği Projesi",
+   "kurum": "DEÜ BAP",
+   "kaynak": "bap",
+   "butce": "300.000,00 TL",
+   "sure": "",
+   "cagri_durumu": "Sürekli Açık",
+   "kapsam": [],
+   "baglanti": "https://bap.deu.edu.tr/tr/proje-turleri/",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "DEÜ BAP Sanayi İş Birliği Projesi: bütçe üst limiti 300.000,00 TL; bursiyer desteği: Yok; kongre/sempozyum desteği: Yok.",
+   "kosullar": [
+    "Performansa dayalı bütçe uygulaması: Var",
+    "Yayın koşulu: SCOPUS veri tabanında taranan dergilerde en az bir (1) araştırma makalesi veya derleme makale yayınlanması zorunludur. *Bu proje türünde, yayınların tümünde sanayi iş birliği şartı (Yayın künyesinde sanayi firması adresli bir araştırmacının yazar olarak yer alması şartı) aranmaktadır."
+   ]
+  },
+  {
+   "id": "bap-uluslararasi-arastirma-i-sbirligi-projesi",
+   "program_adi": "Uluslararası Araştırma İşbirliği Projesi",
+   "kurum": "DEÜ BAP",
+   "kaynak": "bap",
+   "butce": "750.000,00 TL+ burs",
+   "sure": "",
+   "cagri_durumu": "Sürekli Açık",
+   "kapsam": [],
+   "baglanti": "https://bap.deu.edu.tr/tr/proje-turleri/",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "DEÜ BAP Uluslararası Araştırma İşbirliği Projesi: bütçe üst limiti 750.000,00 TL+ burs; bursiyer desteği: 2 bursiyer; kongre/sempozyum desteği: Yok.",
+   "kosullar": [
+    "Performansa dayalı bütçe uygulaması: Var",
+    "Yayın koşulu: Fen, Mühendislik ve Sağlık alanlarındaki projeler için; SCOPUS veri tabanında taranan, Q1 veya Q2 kategorisinde yer alan dergilerde en az iki (2) araştırma makalesi veya derleme makale yayınlanması zorunludur. Sosyal Bilimler alanındaki projeler için; SCOPUS veri tabanında taranan ve Q1 veya Q2 kategorisinde yer alan dergilerde bir (1) araştırma makalesi veya derleme makale ve SCOPUS veri tabanında taranan dergilerde bir (1) araştırma makalesi veya derleme makale veya SCOPUS veri tabanında taranan kitap veya kitap içi bölüm olmak üzere iki (2) adet yayının yayımlanmış olması şartı aranır. *Bu proje türünde, yayınların tümünde uluslararası iş birliği şartı (Yayın künyesinde yurtdışı kurum adresli bir araştırmacının yazar olarak yer alması şartı) aranmaktadır."
+   ]
+  },
+  {
+   "id": "bap-yuksek-lisans-tez-projesi",
+   "program_adi": "Yüksek Lisans Tez Projesi",
+   "kurum": "DEÜ BAP",
+   "kaynak": "bap",
+   "butce": "100.000,00 TL (Burs Dahil)",
+   "sure": "",
+   "cagri_durumu": "Sürekli Açık",
+   "kapsam": [],
+   "baglanti": "https://bap.deu.edu.tr/tr/proje-turleri/",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "DEÜ BAP Yüksek Lisans Tez Projesi: bütçe üst limiti 100.000,00 TL (Burs Dahil); bursiyer desteği: 1 bursiyer; kongre/sempozyum desteği: 25.000,00 TL.",
+   "kosullar": [
+    "Performansa dayalı bütçe uygulaması: Var",
+    "Yayın koşulu: Bu proje türünde ilgili enstitünün mezuniyet koşulları için belirlenen şartlar geçerlidir."
+   ]
+  },
+  {
+   "id": "tubitak-1000-universitelerin-arastirma-ve-gelistirme-potansiyelinin-",
+   "program_adi": "1000 - Üniversitelerin Araştırma ve Geliştirme Potansiyelinin Artırılmasına Yönelik Destek Programı",
+   "kurum": "TÜBİTAK",
+   "kaynak": "tubitak",
+   "butce": "",
+   "sure": "",
+   "cagri_durumu": "Çağrı dönemleri TÜBİTAK duyurularında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://tubitak.gov.tr/tr/destekler/akademik/ulusal-destek-programlari/1000-universitelerin-arastirma-ve-gelistirme-potansiyelinin-artirilmasina-yonelik-destek-programi",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "1000 - Üniversitelerin Araştırma ve Geliştirme Potansiyelinin Artırılmasına Yönelik Destek Programı",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "tubitak-1001-bilimsel-ve-teknolojik-arastirma-projelerini-destekleme",
+   "program_adi": "1001 - Bilimsel ve Teknolojik Araştırma Projelerini Destekleme Programı",
+   "kurum": "TÜBİTAK",
+   "kaynak": "tubitak",
+   "butce": "2026 yılı 1. dönemi itibariyle proje destek üst limiti ( burs dahil, proje teşvik ikramiyesi (PTİ) ve kurum hissesi hariç ) yıllık bütçe sınırlaması olmaksızın 3.000.000 TL’dir",
+   "sure": "Proje süresi en fazla 36 aydır.",
+   "cagri_durumu": "Çağrı dönemleri TÜBİTAK duyurularında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://tubitak.gov.tr/tr/destekler/akademik/ulusal-destek-programlari/1001-bilimsel-ve-teknolojik-arastirma-projelerini-destekleme-programi",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "Bilimsel ve Teknolojik Araştırma Projelerini Destekleme Programının amacı, yeni bilgiler üretilmesi, bilimsel yorumların yapılması veya teknolojik problemlerin çözümlenmesi için bilimsel esaslara uygun olan projeler desteklemektir.",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "tubitak-1002-b-acil-destek-modulu",
+   "program_adi": "1002 - B Acil Destek Modülü",
+   "kurum": "TÜBİTAK",
+   "kaynak": "tubitak",
+   "butce": "1 Şubat 2026 itibariyle, proje destek üst limiti ( burs dahil ) 100.000 TL’dir",
+   "sure": "Proje süresi en fazla 6 ay olabilir.",
+   "cagri_durumu": "Çağrı dönemleri TÜBİTAK duyurularında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://tubitak.gov.tr/tr/destekler/akademik/ulusal-destek-programlari/1002-b-acil-destek-modulu",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "beklenmedik bir şekilde gelişen, doğa veya insan kaynaklı olayların (jeolojik, klimatik, biyolojik, sosyal, teknolojik vb.) hemen sonrasında ortaya çıkan verinin temini açısından aciliyet içeren araştırma projelerini desteklemektir.",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "tubitak-1002-hizli-destek-modulu",
+   "program_adi": "1002 - A Hızlı Destek Modülü",
+   "kurum": "TÜBİTAK",
+   "kaynak": "tubitak",
+   "butce": "1 Şubat 2026 itibariyle, proje destek üst limiti ( burs dahil ) yıllık 150.000 TL’dir",
+   "sure": "Proje süresi en fazla 12 ay olabilir.",
+   "cagri_durumu": "Çağrı dönemleri TÜBİTAK duyurularında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://tubitak.gov.tr/tr/destekler/akademik/ulusal-destek-programlari/1002-hizli-destek-modulu",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "Hızlı Destek Modülünün amacı; üniversitelerde, araştırma hastanelerinde ve araştırma enstitülerinde yürütülecek kısa süreli, küçük bütçeli, hızlı araştırma ihtiyaçlarına yönelik veya doktora tezi kapsamındaki araştırma ve geliştirme projelerine destek sağlamaktır.",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "tubitak-1003-oncelikli-alanlar-ar-ge-projeleri-destekleme-programi",
+   "program_adi": "1003 - Öncelikli Alanlar Ar-Ge Projeleri Destekleme Programı",
+   "kurum": "TÜBİTAK",
+   "kaynak": "tubitak",
+   "butce": "Proje süresi ve bütçesine yönelik üst limitler ilgili çağrı dokümanında belirtilir. Burslar ile ilgili üst sınırlar, 1 Ocak 2026 tarihinden itibaren geçerli olmak üzere aşağıda verilmiştir: Niteliği Ücret Karşılığı Çalışmıyor İse",
+   "sure": "Proje süresi en fazla 36 aydır.",
+   "cagri_durumu": "Çağrı dönemleri TÜBİTAK duyurularında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://tubitak.gov.tr/tr/destekler/akademik/ulusal-destek-programlari/1003-oncelikli-alanlar-ar-ge-projeleri-destekleme-programi",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "Bu destek programının amacı, Ulusal strateji belgelerinde yer verilen Öncelikli Ar-Ge ve Yenilik konularında sonuç odaklı, izlenebilir hedefleri olan, ilgili bilim/teknoloji alanlarının dinamiklerini gözeten ve yurt içinde yapılan Ar-Ge projelerini desteklemektir.",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "tubitak-1004-mukemmeliyet-merkezi-destek-programi",
+   "program_adi": "1004 - Mükemmeliyet Merkezi Destek Programı",
+   "kurum": "TÜBİTAK",
+   "kaynak": "tubitak",
+   "butce": "",
+   "sure": "",
+   "cagri_durumu": "Çağrı dönemleri TÜBİTAK duyurularında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://tubitak.gov.tr/tr/destekler/akademik/ulusal-destek-programlari/1004-mukemmeliyet-merkezi-destek-programi",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "1004 Programının amacı, yükseköğretim kurumları araştırma altyapılarının, Ar-Ge/Tasarım merkezleri ve kamu Ar-Ge birimleri ile iş birliği yaparak ihtisaslaşması ve mükemmeliyet merkezi haline gelmesi için ulusal hedef ve politikalar kapsamında belirlenen öncelikli alanlarda, yurt içinde yapılan, izlenebilir hedefleri olan, bilimsel nitelikli, ticarileşme potansiyeli yüksek araştırma programlarını desteklemektir.",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "tubitak-1005-ulusal-yeni-fikirler-ve-urunler-arastirma-destek-progra",
+   "program_adi": "1005 - Ulusal Yeni Fikirler ve Ürünler Araştırma Destek Programı",
+   "kurum": "TÜBİTAK",
+   "kaynak": "tubitak",
+   "butce": "1 Şubat 2026 itibariyle, proje destek üst limiti (b urs dahil, proje teşvik ikramiyesi (PTİ)* ve kurum hissesi hariç ) 1.200.000 TL’dir",
+   "sure": "Proje süresi en fazla 18 aydır.",
+   "cagri_durumu": "Çağrı dönemleri TÜBİTAK duyurularında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://tubitak.gov.tr/tr/destekler/akademik/ulusal-destek-programlari/1005-ulusal-yeni-fikirler-ve-urunler-arastirma-destek-programi",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "Programın amacı; ülkemizde ihtiyaç duyulan, teknolojik dışa bağımlılığımızı azaltacak ve/veya ülkemizin rekabet gücünü artıracak ulusal/uluslararası yeni bir ürün/süreç/yöntem/model geliştirme amacına yönelik uygulamalı araştırma ve/veya deneysel geliştirme projelerinin desteklenmesidir.",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "tubitak-1007-kamu-kurumlari-arastirma-ve-gelistirme-projelerini-dest",
+   "program_adi": "1007 - Kamu Kurumları Araştırma ve Geliştirme Projelerini Destekleme Programı",
+   "kurum": "TÜBİTAK",
+   "kaynak": "tubitak",
+   "butce": "",
+   "sure": "",
+   "cagri_durumu": "Çağrı dönemleri TÜBİTAK duyurularında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://tubitak.gov.tr/tr/destekler/akademik/ulusal-destek-programlari/1007-kamu-kurumlari-arastirma-ve-gelistirme-projelerini-destekleme-programi",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "Kamu kurumlarının Ar-Ge ile giderilebilecek ihtiyaçlarının karşılanması ya da sorunlarının çözümü amacıyla 10 Mart 2005 tarihinde yapılan “Bilim ve Teknoloji Yüksek Kurulu (BTYK)” toplantısında alınan karar doğrultusunda Kamu Kurumları Araştırma ve Geliştirme Projelerini Destekleme Programı (1007 Programı) başlatılmıştır.",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "tubitak-3001-baslangic-ar-ge-projeleri-destekleme-programi",
+   "program_adi": "3001 - Başlangıç Ar-Ge Projeleri Destekleme Programı",
+   "kurum": "TÜBİTAK",
+   "kaynak": "tubitak",
+   "butce": "",
+   "sure": "",
+   "cagri_durumu": "Çağrı dönemleri TÜBİTAK duyurularında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://tubitak.gov.tr/tr/destekler/akademik/ulusal-destek-programlari/3001-baslangic-ar-ge-projeleri-destekleme-programi",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "Araştırma Destek Programları Başkanlığı tarafından yürütülmekte olan “3001- Başlangıç Ar-Ge Projeleri Destekleme Programı”",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "tubitak-3005-b-teknolojik-ilerlemelerin-toplumsal-etkileri-modulu",
+   "program_adi": "3005 - B Teknolojik İlerlemelerin Toplumsal Etkileri Modülü",
+   "kurum": "TÜBİTAK",
+   "kaynak": "tubitak",
+   "butce": "1 Şubat 2026 itibariyle, proje destek üst limiti ( burs dahil, proje teşvik ikramiyesi (PTİ) ve kurum hissesi hariç ) yıllık bütçe sınırlaması olmaksızın 1.200.000 TL’dir",
+   "sure": "Proje süresi en fazla 24 aydır.",
+   "cagri_durumu": "Çağrı dönemleri TÜBİTAK duyurularında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://tubitak.gov.tr/tr/destekler/akademik/ulusal-destek-programlari/3005-b-teknolojik-ilerlemelerin-toplumsal-etkileri-modulu",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "yüksek teknolojilerin toplumsal dönüşüm, ekonomik kalkınma, yaşam kalitesi, çevre, sağlık, eğitim, adalet ve güvenlik gibi çok boyutlu toplumsal etkilerini yerel, bölgesel veya ulusal ölçekte ele alan, ilgili mühendislik bilimleriyle eş güdüm içinde toplumsal fayda ve kazanımı hedefleyen sosyal ve beşeri bilimler araştırmalarını desteklemektir.",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "tubitak-3005-politika-gelistirme-modulu",
+   "program_adi": "3005 - A Politika Geliştirme Modülü",
+   "kurum": "TÜBİTAK",
+   "kaynak": "tubitak",
+   "butce": "1 Şubat 2026 itibariyle, proje destek üst limiti ( burs dahil, proje teşvik ikramiyesi (PTİ) ve kurum hissesi hariç ) yıllık bütçe sınırlaması olmaksızın 1.200.000 TL’dir",
+   "sure": "Proje süresi en fazla 24 aydır.",
+   "cagri_durumu": "Çağrı dönemleri TÜBİTAK duyurularında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://tubitak.gov.tr/tr/destekler/akademik/ulusal-destek-programlari/3005-politika-gelistirme-modulu",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "kamu politikalarının geliştirilmesi süreçlerine bilimsel temeller sağlamaya yönelik olarak; yenilikçi politika araçlarının tasarlanmasına imkan tanıyacak, politika yapıcılar için yol gösterici ve yenilikçi çözümler üretecek, kamusal fayda sağlamaya yönelik bulgular ortaya koyacak kamu-akademi iş birliği içeren sosyal ve beşeri bilim araştırmalarını desteklemektir.",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "tubitak-3501-kariyer-gelistirme-programi",
+   "program_adi": "3501 - Kariyer Geliştirme Programı",
+   "kurum": "TÜBİTAK",
+   "kaynak": "tubitak",
+   "butce": "1 Şubat 2026 itibariyle, proje destek üst limiti (Burs dahil, Proje Teşvik İkramiyesi (PTİ) ve Kurum hissesi hariç) yıllık bütçe sınırlaması olmaksızın 1.500.000 TL'dir",
+   "sure": "Proje süresi en fazla 36 aydır.",
+   "cagri_durumu": "Çağrı dönemleri TÜBİTAK duyurularında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://tubitak.gov.tr/tr/destekler/akademik/ulusal-destek-programlari/3501-kariyer-gelistirme-programi",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "Kariyer Geliştirme Programı’nın (3501) amacı; kariyerlerine yeni başlayan doktoralı bilim insanlarının çalışmalarını proje desteği vererek teşvik etmektir. 21. yüzyılın akademik önderliğini yüklenecek genç araştırmacıların çalışmaları desteklenerek, hem genç bilim insanlarının kariyerlerini araştırmacı ve eğitimci olarak en iyi şekilde sürdürmeleri, hem de bilimsel düzeyimizin geliştirilmesi ve bilimin ülke kalkınmasındaki rolünün artırılması amacına yönelik bir programdır.",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
+   ]
+  },
+  {
+   "id": "tubitak-kutup-arastirmalari",
+   "program_adi": "Kutup Araştırmaları",
+   "kurum": "TÜBİTAK",
+   "kaynak": "tubitak",
+   "butce": "",
+   "sure": "",
+   "cagri_durumu": "Çağrı dönemleri TÜBİTAK duyurularında ilan edilir",
+   "kapsam": [],
+   "baglanti": "https://tubitak.gov.tr/tr/destekler/akademik/ulusal-destek-programlari/kutup-arastirmalari",
+   "guncelleme": "2026-11-12",
+   "otomatik": true,
+   "ozet": "Özel kuruluşta yürütülecek projelerde, proje yürütücüsünün söz konusu kuruluşta, projenin öneri tarihi itibariyle en az altı ay görev almış olması gerekmektedir.",
+   "kosullar": [
+    "Ayrıntılar için resmî program sayfasına bakın."
    ]
   }
  ]

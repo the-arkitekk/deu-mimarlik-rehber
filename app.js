@@ -126,6 +126,33 @@ function cizCagrilar() {
         })()));
   }));
 }
+function cizProgramlar() {
+  const hepsi = veri.programlar || [];
+  const secili = ($("#program-kurum") || {}).value || "";
+  const liste_ = hepsi.filter((p) => !secili || p.kurum === secili);
+  $("#say-program").textContent = `(${hepsi.length})`;
+  const kutu = $("#programlar");
+  if (!liste_.length) { kutu.replaceChildren(el("p", { class: "bos", text: "Listelenen program yok." })); return; }
+  kutu.replaceChildren(...liste_.map((p) => {
+    const url = guvenliUrl(p.baglanti, "https:", "http:");
+    return el("article", { class: "kart" },
+      el("h2", { text: p.program_adi }),
+      el("div", {}, el("span", { class: "rozet kapali", text: p.kurum }), p.otomatik ? el("span", { class: "rozet kapali", text: "otomatik derlendi" }) : null),
+      p.cagri_durumu ? el("div", { class: "alt-baslik", text: "Çağrı: " + p.cagri_durumu }) : null,
+      p.butce ? el("div", { class: "alt-baslik", text: "Bütçe: " + p.butce }) : null,
+      p.sure ? el("div", { class: "alt-baslik", text: "Süre: " + p.sure }) : null,
+      p.ozet && el("p", { class: "ozet", text: p.ozet }),
+      p.kosullar.length ? el("details", {}, el("summary", { text: "Koşullar" }), el("ul", {}, ...p.kosullar.map((x) => el("li", { text: x })))) : null,
+      el("div", { class: "baglantilar" }, url ? el("a", { href: url, rel: "noopener", target: "_blank", text: "Program sayfası" }) : null));
+  }));
+}
+function programKurumSecici() {
+  const kurumlar = [...new Set((veri.programlar || []).map((p) => p.kurum))];
+  const sec = $("#program-kurum");
+  sec.hidden = kurumlar.length < 2;
+  kurumlar.forEach((k) => sec.append(el("option", { value: k, text: k })));
+  sec.onchange = cizProgramlar;
+}
 function cagriKaynakSecici() {
   const kaynaklar = [...new Set(veri.cagrilar.map((c) => c.kaynak || "elle"))];
   const sec = $("#cagri-kaynak");
@@ -137,13 +164,14 @@ function cagriKaynakSecici() {
 let sekmeSec = () => {};
 function sekmeler() {
   sekmeSec = (ad) => {
-    for (const k of ["kisi", "cagri", "ekip"]) {
+    for (const k of ["kisi", "cagri", "program", "ekip"]) {
       $("#sek-" + k).setAttribute("aria-selected", String(k === ad));
       $("#panel-" + k).hidden = k !== ad;
     }
   };
   $("#sek-kisi").onclick = () => sekmeSec("kisi");
   $("#sek-cagri").onclick = () => sekmeSec("cagri");
+  $("#sek-program").onclick = () => sekmeSec("program");
   $("#sek-ekip").onclick = () => sekmeSec("ekip");
 }
 
@@ -214,6 +242,6 @@ async function basla() {
   $("#fakulte").onchange = (e) => { durum.fakulte = e.target.value; durum.bolum = ""; bolumSecenekleri(); cizKisiler(); };
   $("#bolum").onchange = (e) => { durum.bolum = e.target.value; cizKisiler(); };
   $("#acik").onchange = (e) => { durum.acik = e.target.checked; cizKisiler(); };
-  ekipBagla(); cagriKaynakSecici(); cizEtiketler(); cizKisiler(); cizCagrilar();
+  ekipBagla(); programKurumSecici(); cizProgramlar(); cagriKaynakSecici(); cizEtiketler(); cizKisiler(); cizCagrilar();
 }
 basla();
